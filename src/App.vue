@@ -70,7 +70,6 @@
              class="rounded-circle" />
            <div class="ms-3">  
              <p class="fw-bold mb-1">{{ person.name }}</p>
-             <p class="text-muted mb-0">{{ person.address }}</p>
              </div>
          </div>  
        </td>
