@@ -1,5 +1,5 @@
 <script>
-   import dp from '/home/roy/S2P/mdb/dp.json'
+   import dp from './dp.json'
  import {
   MDBTabs,
     MDBTabNav,
