@@ -57,7 +57,7 @@
  <MDBTable class="align-middle mb-0 bg-white">
    <thead class="bg-light">
      <tr>
-       <th>Name:Address</th>
+       <th>Name</th>
        <th>Reward Rate</th>
        <th>Fee</th>
      </tr>
@@ -91,7 +91,7 @@
  <MDBTable class="align-middle mb-0 bg-white">
    <thead class="bg-light">
      <tr>
-       <th>Name:Address</th>
+       <th>Name</th>
        <th>SuccessRate</th>
        <th>Avialability,Voting Power,Fee</th>
      </tr>
