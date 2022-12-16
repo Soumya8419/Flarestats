@@ -78,8 +78,8 @@
        </td>  
         <td>
           <div class="ms-3">  
-            <p class="fw-bold mb-1">{{ person.availability }}</p>
-             <p class="fw-bold mb-1">{{ person.currentVotePower }}</p>
+//            <p class="fw-bold mb-1">{{ person.availability }}</p>
+//             <p class="fw-bold mb-1">{{ person.currentVotePower }}</p>
              <p class="text-muted mb-0">{{ person.fee.fee }}</p>
              </div>
        </td>
@@ -157,8 +157,8 @@
        </td>  
         <td>
           <div class="ms-3">  
-            <p class="fw-bold mb-1">{{ person.availability }}</p>
-             <p class="fw-bold mb-1">{{ person.currentVotePower }}</p>
+//            <p class="fw-bold mb-1">{{ person.availability }}</p>
+//             <p class="fw-bold mb-1">{{ person.currentVotePower }}</p>
              <p class="text-muted mb-0">{{ person.fee.fee }}</p>
              </div>
        </td>
