@@ -59,7 +59,7 @@
      <tr>
        <th>Name:Address</th>
        <th>Reward Rate</th>
-       <th>Avialability,Voting Power,Fee</th>
+       <th>Fee</th>
      </tr>
    </thead>
    <tbody>
@@ -78,8 +78,6 @@
        </td>  
         <td>
           <div class="ms-3">  
-//            <p class="fw-bold mb-1">{{ person.availability }}</p>
-//             <p class="fw-bold mb-1">{{ person.currentVotePower }}</p>
              <p class="text-muted mb-0">{{ person.fee.fee }}</p>
              </div>
        </td>
@@ -137,7 +135,7 @@
      <tr>
        <th>Name:Address</th>
        <th>SuccessRate</th>
-       <th>Avialability,Voting Power,Fee</th>
+       <th>Fee</th>
      </tr>
    </thead>
    <tbody>
@@ -157,8 +155,6 @@
        </td>  
         <td>
           <div class="ms-3">  
-//            <p class="fw-bold mb-1">{{ person.availability }}</p>
-//             <p class="fw-bold mb-1">{{ person.currentVotePower }}</p>
              <p class="text-muted mb-0">{{ person.fee.fee }}</p>
              </div>
        </td>
