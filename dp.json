@@ -1,23 +1,5 @@
 [
-  {
-    "chainId": 19,
-    "name": "sToadz FTSO",
-    "description": "FTSO Stoadz provides a Flare Time Series Oracle for those who want to delegate their assets!",
-    "url": "https://xtoadz.xyz/signal-provider",
-    "address": "0x879fb0b354733674fd403286ebb2eb17ef97e5ae",
-    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x879Fb0b354733674FD403286eBb2eB17EF97E5Ae.png",
-    "availability": 100,
-    "successRate": 67.2,
-    "currentVotePower": "512958173998805371951754618",
-    "currentRewardEpochVotePower": "489050986017283532532183566",
-    "balance": "1382938951715915308076",
-    "fee": {
-      "fee": "2000",
-      "scheduledFee": null
-    },
-    "currentEpochReward": "645258397269157814344457",
-    "totalEpochReward": "3226226017231944612022547"
-  },
+
   {
     "chainId": 19,
     "name": "OracleSwap FTSO",
