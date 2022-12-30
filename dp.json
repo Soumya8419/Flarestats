@@ -1,0 +1,3913 @@
+[
+  {
+    "chainId": 19,
+    "name": "OracleSwap FTSO",
+    "description": "OracleSwap is the premier decentralized exchange on the Songbird Network. The OracleSwap FTSO uses a Machine Learning algorithm to aggregate price data from many sources to submit the most accurate price data possible.",
+    "url": "https://www.oracleswap.io",
+    "address": "0x4e6c61d1dc945eebd3fc9a6251bd8b8b5ebd5637",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4E6c61d1DC945EeBd3Fc9A6251BD8B8b5EbD5637.png",
+    "availability": 100,
+    "successRate": 69.3,
+    "currentVotePower": "471808408417824381854937629",
+    "currentRewardEpochVotePower": "473924297414954060379158787",
+    "balance": "1016179534779400020798",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "492352308622003374768141",
+    "totalEpochReward": "3282348331679495966297499"
+  },
+  {
+    "chainId": 19,
+    "name": "NORTSO",
+    "description": "NORTSO is a Norwegian-based data provider aiming to provide the most accurate price signals on the network.",
+    "url": "https://nortso.xyz",
+    "address": "0x04a8b3171fbbfe4554b55190b43e709c4b672030",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x04a8b3171fBbfe4554B55190B43E709c4b672030.png",
+    "availability": 100,
+    "successRate": 65.3,
+    "currentVotePower": "278422620648995031006277467",
+    "currentRewardEpochVotePower": "266797412942648855714180977",
+    "balance": "73882427715895747581",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "370188874340098540402879",
+    "totalEpochReward": "1850905521732618647873771"
+  },
+  {
+    "chainId": 19,
+    "name": "O1 FTSO",
+    "description": "O1 FTSO is an open-minded data signals provider looking for a great partnership on the Flare and Songbird Network.",
+    "url": "https://o1ftso.netlify.app",
+    "address": "0x229458a754cd1aeba8a0c87f59e22777d593b85a",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x229458A754CD1aeBa8A0c87f59E22777D593B85a.png",
+    "availability": 100,
+    "successRate": 61.4,
+    "currentVotePower": "323655310823330078195159960",
+    "currentRewardEpochVotePower": "315890922041029078231287611",
+    "balance": "950814549624715115834",
+    "fee": {
+      "fee": "1000",
+      "scheduledFee": {
+        "bips": "1000",
+        "fromEpoch": "67"
+      }
+    },
+    "currentEpochReward": "209746372499243349379072",
+    "totalEpochReward": "2097430798565605894424992"
+  },
+  {
+    "chainId": 19,
+    "name": "Atlas TSO",
+    "description": "Atlas Songbird Network Data Provider. Doing what is best for the users and the network.",
+    "url": "https://tsoatlas.xyz",
+    "address": "0xb5ecb64526f777eb6f02d4a83abab1fad26b1c00",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xB5ECB64526F777Eb6f02D4A83AbAB1FAD26b1C00.png",
+    "availability": 100,
+    "successRate": 60.3,
+    "currentVotePower": "302247132791511981675455528",
+    "currentRewardEpochVotePower": "235784656701514110679728177",
+    "balance": "28123074043194266390",
+    "fee": {
+      "fee": "1000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "151889149611244390816757",
+    "totalEpochReward": "1518891496112443908167578"
+  },
+  {
+    "chainId": 19,
+    "name": "EvolveFTSO",
+    "description": "EvolveFTSO is a reliable data provider, run by a team providing continuous improvements to produce the best results",
+    "url": "https://evolveftso.com",
+    "address": "0x0f80af5b905a9a34f69e74412c4a00b231d26daa",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0f80AF5b905a9A34f69E74412c4A00B231D26dAa.png",
+    "availability": 100,
+    "successRate": 59.9,
+    "currentVotePower": "568811385389827779633453176",
+    "currentRewardEpochVotePower": "573132634789569895621492073",
+    "balance": "3065123800602604033456",
+    "fee": {
+      "fee": "1200",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "414728228754247213317710",
+    "totalEpochReward": "3456068572952060110980918"
+  },
+  {
+    "address": "0x2602f6456287a167b0214c3dbe8b4162f0ec5409",
+    "availability": 100,
+    "successRate": 59.8,
+    "currentVotePower": "827630000000000000000000",
+    "currentRewardEpochVotePower": "827630000000000000000000",
+    "balance": "75289760392500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": {
+        "bips": "300",
+        "fromEpoch": "68"
+      }
+    },
+    "currentEpochReward": "915236959606894991244",
+    "totalEpochReward": "4576184798034474956221"
+  },
+  {
+    "chainId": 19,
+    "name": "Flare Oracle",
+    "description": "Flare Oracle, a data provider to the Flare network. Our goal is to give users a plug & play solution to effortlessly control their passive income.",
+    "url": "https://flareoracle.io",
+    "address": "0x1b00870092a929d160492daf8e734b4bca033266",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x1B00870092a929D160492daf8E734b4bCA033266.png",
+    "availability": 99.2,
+    "successRate": 58,
+    "currentVotePower": "366118606216859718640949103",
+    "currentRewardEpochVotePower": "367129728207814959068053158",
+    "balance": "5378633614393030818021",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "434309478826645724596850",
+    "totalEpochReward": "2171315104112898629806698"
+  },
+  {
+    "chainId": 19,
+    "name": "A-FTSO",
+    "description": "The first indie FTSO provider, run as a professional one. No frills, low fees.",
+    "url": "https://ftso.alexdupre.com",
+    "address": "0x2d7bf53ed6117ad1dcd6416d460481522a16afdf",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x2d7bf53ED6117aD1DCD6416d460481522a16aFdf.png",
+    "availability": 100,
+    "successRate": 55.3,
+    "currentVotePower": "585535443508739295481042048",
+    "currentRewardEpochVotePower": "582764190356586605363001551",
+    "balance": "123712659375000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "624136813030077157129965",
+    "totalEpochReward": "3120622111592191952468666"
+  },
+  {
+    "chainId": 19,
+    "name": "FlareFi",
+    "description": "We are a trustworthy data provider for Songbird and Flare Network, the new distributed ecosystem. We collect data reliably for the benefit of the ecosystem and our delegators.",
+    "url": "https://flarefi.tech",
+    "address": "0x5f3c5991de3f0713715a733ee125785d516ceb16",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x5f3C5991De3F0713715a733eE125785D516cEb16.png",
+    "availability": 100,
+    "successRate": 51,
+    "currentVotePower": "66355890323491283780076783",
+    "currentRewardEpochVotePower": "66024458539582710280286728",
+    "balance": "2736600887142711895829",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "75109713560684517644450",
+    "totalEpochReward": "375548567803422588222252"
+  },
+  {
+    "chainId": 19,
+    "name": "Flare Dienst",
+    "description": "An EU-based data provider.",
+    "url": "https://flare-dienst.xyz",
+    "address": "0xde4051b333b3063fd28267cd4412dd25233d0ae1",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xDe4051b333b3063fd28267Cd4412DD25233D0Ae1.png",
+    "availability": 100,
+    "successRate": 50.8,
+    "currentVotePower": "148745652194870992572371388",
+    "currentRewardEpochVotePower": "138185097480684757884143155",
+    "balance": "558308838274681888506",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "140504525741414994738998",
+    "totalEpochReward": "702522628707074973694992"
+  },
+  {
+    "chainId": 19,
+    "name": "sToadz FTSO",
+    "description": "FTSO Stoadz provides a Flare Time Series Oracle for those who want to delegate their assets!",
+    "url": "https://xtoadz.xyz/signal-provider",
+    "address": "0x879fb0b354733674fd403286ebb2eb17ef97e5ae",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x879Fb0b354733674FD403286eBb2eB17EF97E5Ae.png",
+    "availability": 91.7,
+    "successRate": 48.4,
+    "currentVotePower": "491506502190981742395850985",
+    "currentRewardEpochVotePower": "501791209522791714050122793",
+    "balance": "2380575565664236485260",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "547799151946349976925590",
+    "totalEpochReward": "2738941176448414706751584"
+  },
+  {
+    "chainId": 19,
+    "name": "Ivy Oracle",
+    "description": "Low fee and optimised rewards, Ivy Oracle strive for providing the best open analytics tools for the community.",
+    "url": "https://ivyoracle.xyz",
+    "address": "0xa174d46ef49d7d4a0328f9910222689e9eab2f45",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xA174D46EF49D7d4a0328f9910222689E9eAb2f45.png",
+    "availability": 99.2,
+    "successRate": 48.3,
+    "currentVotePower": "21539836395259695588030019",
+    "currentRewardEpochVotePower": "21481626640443017442690795",
+    "balance": "76588762454693047181",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "20896635911681056695844",
+    "totalEpochReward": "104481234058917601053410"
+  },
+  {
+    "address": "0xbd4ad52b5c2dbeef1c3de8ac4f7dafc9cd4e5cc0",
+    "availability": 100,
+    "successRate": 43.7,
+    "currentVotePower": "85382425331487362458693484",
+    "currentRewardEpochVotePower": "84009309065523278565979531",
+    "balance": "531306535050000000000",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "453955887095893101373300",
+    "totalEpochReward": "453955887095893101373300"
+  },
+  {
+    "chainId": 19,
+    "name": "AlphaOracle",
+    "description": "AlphaOracle is a US based Signal Provider to the Flare Network. Our goal is to provide reliable data to support applications and expand the ecosystem.",
+    "url": "https://www.alphaoracle.io",
+    "address": "0xbf61db1cdb43d196309824473fa82e5b17581159",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xBF61Db1CDb43d196309824473fA82E5B17581159.png",
+    "availability": 100,
+    "successRate": 39.4,
+    "currentVotePower": "297416238585038257288857426",
+    "currentRewardEpochVotePower": "307791170096277774985304007",
+    "balance": "19508334491585636627605",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "262454667393757890902928",
+    "totalEpochReward": "1312273336968789454514644"
+  },
+  {
+    "chainId": 19,
+    "name": "Solarius",
+    "description": "Solarius Flare Time Series Oracle provides accurate data from advanced algorithms using our reliable and robust hardware.",
+    "url": "https://www.solarius.io/ftso",
+    "address": "0x6c6b3560704da8a2c33b1bb00e88ba343807e565",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x6c6b3560704Da8A2c33B1BB00E88bA343807E565.png",
+    "availability": 100,
+    "successRate": 38.9,
+    "currentVotePower": "20043318767228302823591059",
+    "currentRewardEpochVotePower": "20039610057228302823591059",
+    "balance": "6198600209952440843372",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "17592294030256840717215",
+    "totalEpochReward": "87961470151284203586075"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO London",
+    "description": "Let’s work together to maximise your Flare Rewards. Our delegation services enable token holders to earn lucrative rewards on the Flare Network",
+    "url": "https://www.ftso.london",
+    "address": "0x0708a4c813594b7e0218cb4a5d8b75c76abfc859",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0708a4C813594b7E0218CB4A5D8b75c76AbFc859.png",
+    "availability": 100,
+    "successRate": 37.5,
+    "currentVotePower": "20178218135067132117886806",
+    "currentRewardEpochVotePower": "20329234535919155455928746",
+    "balance": "145343313977023951652",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "17687331812924741448820",
+    "totalEpochReward": "88436659064623707244100"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO Plus",
+    "description": "FTSO provider with an emphasis on accuracy.",
+    "url": "https://ftso.plus",
+    "address": "0x0fa72d3912d1c530ab1f6a8a9fb61c672947e964",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0FA72D3912d1C530AB1f6a8A9fB61C672947E964.png",
+    "availability": 100,
+    "successRate": 35.3,
+    "currentVotePower": "22459694150236736438181804",
+    "currentRewardEpochVotePower": "22463586345236236438181804",
+    "balance": "172813145952908833050",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "17023808842541135728066",
+    "totalEpochReward": "85119044212705678640330"
+  },
+  {
+    "chainId": 19,
+    "name": "Use Your Spark",
+    "description": "Global Signal Provider for the Flare Time Series Oracle (FTSO), offering vote delegation services to Songbird (SGB) token holders. Start earning risk-free rewards today!",
+    "url": "https://www.useyourspark.com",
+    "address": "0x53caedda4339ed74272ecfef85b657def18fa2e4",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x53CAEDDA4339eD74272ECfEF85b657dEf18fA2e4.png",
+    "availability": 100,
+    "successRate": 34.7,
+    "currentVotePower": "68742772168184586904228575",
+    "currentRewardEpochVotePower": "69736450628976057509074190",
+    "balance": "273505087210719313210",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "40009504423663285748313",
+    "totalEpochReward": "266730029491088571655426"
+  },
+  {
+    "chainId": 19,
+    "name": "WitterFTSO",
+    "description": "We are a NYC based Songbird Network signal provider. We put the PRO in provider!",
+    "url": "https://witterftso.com",
+    "address": "0xd9200cc419bde28b169ad8c904d2687a15a4bf9f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xD9200CC419BDe28B169AD8c904d2687a15A4Bf9F.png",
+    "availability": 94.9,
+    "successRate": 33.7,
+    "currentVotePower": "75157570996337439435130218",
+    "currentRewardEpochVotePower": "62154382448832442934340612",
+    "balance": "114693389624006595642",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "38741953212758608009463",
+    "totalEpochReward": "258279688085057386729756"
+  },
+  {
+    "chainId": 19,
+    "name": "Defi Oracles",
+    "description": "DeFi Oracles is a multi-chain decentralized finance oracle service provider.",
+    "url": "https://defioracles.org",
+    "address": "0xca60cd408a5e447897258cdb1f699478c71cc55e",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xCa60cd408A5E447897258cDB1F699478c71Cc55E.png",
+    "availability": 100,
+    "successRate": 30.8,
+    "currentVotePower": "173372861339244573220670691",
+    "currentRewardEpochVotePower": "173412440987331215183451691",
+    "balance": "64482154870565598280939",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "94380731391370732663669",
+    "totalEpochReward": "629202819870460890105534"
+  },
+  {
+    "chainId": 19,
+    "name": "Aureus Ox",
+    "description": "Aureus Ox is building a scalable and reliable FTSO signal provider. Our initial goals include accurate price submission and delegation tools.",
+    "url": "https://aureusox.com",
+    "address": "0x6d323e71e141ce2d7b752313c8a654a9c9d1b377",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x6d323e71E141cE2d7b752313C8A654a9C9d1b377.png",
+    "availability": 100,
+    "successRate": 29.3,
+    "currentVotePower": "37315095199302232460479374",
+    "currentRewardEpochVotePower": "37591257916678503811448478",
+    "balance": "86999814271680018341385",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "22937015126944185071745",
+    "totalEpochReward": "114685075634720925358729"
+  },
+  {
+    "chainId": 19,
+    "name": "Oracle Daemon",
+    "description": "Oracle Daemon is a team of dedicated professionals designing the best data provider.",
+    "url": "https://www.oracle-daemon.com",
+    "address": "0x92d6c2e99d5959f2e9c0a7aba5149d8a5ef22f23",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x92D6c2E99d5959F2e9c0a7aba5149D8A5ef22f23.png",
+    "availability": 99.2,
+    "successRate": 28.1,
+    "currentVotePower": "100375205819370695368424905",
+    "currentRewardEpochVotePower": "100105449835707111939368087",
+    "balance": "2770249056813590581154",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "65002055507678108492346",
+    "totalEpochReward": "324232938189800994487473"
+  },
+  {
+    "chainId": 19,
+    "name": "ScandiNodes FTSO",
+    "description": "We are proud to be part of Flare Networks. We have a responsibility and take our role as a signal provider very serious. We do not only provide data estimates. We provide good estimates, for maximum returns.",
+    "url": "https://ftso.scandinodes.com",
+    "address": "0x4ed9e5b82ce66311ac2230d2fccc5202d7b8c083",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4ed9e5b82CE66311Ac2230D2FCCc5202D7B8c083.png",
+    "availability": 100,
+    "successRate": 26.4,
+    "currentVotePower": "58346453206217961584587494",
+    "currentRewardEpochVotePower": "57384426319141028707749305",
+    "balance": "91964936425000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "35391207534265343987502",
+    "totalEpochReward": "176956037671326719937514"
+  },
+  {
+    "chainId": 19,
+    "name": "Bifrost Oracle",
+    "description": "Bifrost Oracle is a reliable Songbird oracle service run by Towo Labs, a Songbird Network development partner and the company behind Bifrost Wallet.",
+    "url": "https://bifrostoracle.com",
+    "address": "0x69141e890f3a79cd2cff552c0b71508be23712dc",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x69141E890F3a79cd2CFf552c0B71508bE23712dC.png",
+    "availability": 100,
+    "successRate": 25.6,
+    "currentVotePower": "105028486623026168868105536",
+    "currentRewardEpochVotePower": "100358268971578544976538028",
+    "balance": "13188721233813947231508",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "54796009371714482798455",
+    "totalEpochReward": "273980046858572413992278"
+  },
+  {
+    "IPs": "",
+    "name": "Hex Trust FTSO",
+    "contact_person": "",
+    "email": "hextrust.com",
+    "url": "",
+    "country": "Singapore",
+    "address": "0x14d699c1d61d54a0390671b07b2b6f8c0bf36275",
+    "availability": 100,
+    "successRate": 24.8,
+    "currentVotePower": "85781991457482582364904783",
+    "currentRewardEpochVotePower": "85598371989627297447574431",
+    "balance": "762505736010432521390",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "43756107714544169970799",
+    "totalEpochReward": "218780497678392120348972"
+  },
+  {
+    "address": "0x7776fc062ae648466958a28b3001f6a4517a147c",
+    "availability": 100,
+    "successRate": 24.6,
+    "currentVotePower": "20218970728510222805000000",
+    "currentRewardEpochVotePower": "20218791728510222805000000",
+    "balance": "769422651036771907059",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "10474451053490325240452",
+    "totalEpochReward": "52372255267451626202261"
+  },
+  {
+    "chainId": 19,
+    "name": "Lena Instruments",
+    "description": "Institutional grade vote delegation service and FTSO signal provider to the Songbird ecosystem",
+    "url": "https://www.lena.tech",
+    "address": "0xc9ac8f034d295962a6a975b717b691437605bbb6",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xc9AC8F034d295962A6a975b717B691437605Bbb6.png",
+    "availability": 100,
+    "successRate": 24.2,
+    "currentVotePower": "24564900946289673339065675",
+    "currentRewardEpochVotePower": "24565212674325717605482434",
+    "balance": "276616298716439782239",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "14068172831798364647433",
+    "totalEpochReward": "70338573486424272019019"
+  },
+  {
+    "chainId": 19,
+    "name": "Aimlezz",
+    "description": "Aimlezzly providing the best prices.",
+    "url": "https://www.aimlezz.com",
+    "address": "0x0501b6306b03a9eede8165d4b9abcb4915937b89",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0501B6306b03A9EEDe8165d4B9abCB4915937b89.png",
+    "availability": 100,
+    "successRate": 22.4,
+    "currentVotePower": "20000500500000000000000000",
+    "currentRewardEpochVotePower": "20000500500000000000000000",
+    "balance": "628863696654420085739",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5723960167409329605590",
+    "totalEpochReward": "28619800837046648027950"
+  },
+  {
+    "chainId": 19,
+    "name": "Xdrops Oracle",
+    "description": "Croatia based Flare FTSO data provider.",
+    "url": "https://www.xdrops.live",
+    "address": "0x2d3bde536ad297f2ea74965f02c9e42f4780fb6a",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x2d3bdE536ad297f2EA74965f02C9E42f4780fB6A.png",
+    "availability": 100,
+    "successRate": 21.2,
+    "currentVotePower": "20398798183617753145633106",
+    "currentRewardEpochVotePower": "20270639233507967666949142",
+    "balance": "656666908248191198911",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "10634121004551474860395",
+    "totalEpochReward": "51687597680718869064268"
+  },
+  {
+    "chainId": 19,
+    "name": "Knot Nodes",
+    "description": "Knot Nodes is a Signal Provider that aims to contribute to the endeavor of building a decentralized world by delivering necessary data to the  Flare network.",
+    "url": "https://www.knotnodes.com",
+    "address": "0x4619ae2f09cf5e6da873c501a12d86aacbd7962b",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4619Ae2f09cF5e6da873C501a12D86AaCbD7962B.png",
+    "availability": 100,
+    "successRate": 21.2,
+    "currentVotePower": "20016909499039000000000000",
+    "currentRewardEpochVotePower": "20076679499039000000000000",
+    "balance": "5683206888116830734489",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7525420672615579321895",
+    "totalEpochReward": "37627065879722263499589"
+  },
+  {
+    "chainId": 19,
+    "name": "Flaris",
+    "description": "UK technology",
+    "url": "https://www.flaris.uk",
+    "address": "0x833dde54a28a3070a086cc8919beaa7a0134de46",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x833DDe54A28a3070A086Cc8919BeAa7a0134DE46.png",
+    "availability": 99.8,
+    "successRate": 20.2,
+    "currentVotePower": "20000005000000000000000000",
+    "currentRewardEpochVotePower": "20000005000000000000000000",
+    "balance": "128546652860934825389",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4141566422982146364148",
+    "totalEpochReward": "20707832114910731820741"
+  },
+  {
+    "chainId": 19,
+    "name": "LightFTSO",
+    "description": "Homebrewed FTSO, light, nimble, with high rewards and lower fees. Get on! We're getting passive income!",
+    "url": "https://www.lightft.so",
+    "address": "0xfb9197720329a80191ba140844e96dccad149014",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xfB9197720329a80191BA140844E96DCcAD149014.png",
+    "availability": 100,
+    "successRate": 19.8,
+    "currentVotePower": "20533094626835029926989133",
+    "currentRewardEpochVotePower": "20586907466488695475803867",
+    "balance": "1310456068626274432055",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8815429491982247900213",
+    "totalEpochReward": "44077147459911239501066"
+  },
+  {
+    "chainId": 19,
+    "name": "BushiFinance",
+    "description": "As samurai are born to serve their lord and die, BushiFinance exists to provide accurate and reliable prices for the Songbird ecosystem.",
+    "url": "https://bushi.finance",
+    "address": "0x0d3852ad415477ffc39ce9351bd4dedbbd585833",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0d3852Ad415477fFC39ce9351bD4dEdbbd585833.png",
+    "availability": 100,
+    "successRate": 19.5,
+    "currentVotePower": "20270692862402548100091736",
+    "currentRewardEpochVotePower": "20270677862402548100091736",
+    "balance": "28732766784741013570",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "9661327439247984770326",
+    "totalEpochReward": "48306637196239923851631"
+  },
+  {
+    "chainId": 19,
+    "name": "ApeFTSO",
+    "description": "An aped out signal provider to the Flare Time Series Oracle on the Flare Network",
+    "url": "https://x-apes.com",
+    "address": "0x3774c4fdd0a52b202d7583fa938a77ac252d770f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x3774c4Fdd0a52B202d7583Fa938A77ac252d770f.png",
+    "availability": 100,
+    "successRate": 19.5,
+    "currentVotePower": "656865631705526703644793",
+    "currentRewardEpochVotePower": "660641413101526703644793",
+    "balance": "634813466790646993273",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "298665818605833426077",
+    "totalEpochReward": "1484341816199331340527"
+  },
+  {
+    "chainId": 19,
+    "name": "AFOracle",
+    "description": "AFOracle is an FTSO provider from AFLabs, a team that helped build the Flare's smart contract infrastructure.",
+    "url": "https://aforacle.com",
+    "address": "0x9565d813a3a0cea62b3bdb9a4e236dcb5910c4f0",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x9565d813a3a0CEa62B3bDB9A4e236dCb5910c4f0.png",
+    "availability": 100,
+    "successRate": 19,
+    "currentVotePower": "23134742744165731452103833",
+    "currentRewardEpochVotePower": "23009994161142907523527543",
+    "balance": "8914949631491889180056",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "11387995553605071743171",
+    "totalEpochReward": "52545897349977255727671"
+  },
+  {
+    "chainId": 19,
+    "name": "Aternety",
+    "description": "Aternety US-based data provider on the Songbird Network.",
+    "url": "https://aternety.com",
+    "address": "0x2de2c741658f0ae7b2ddd8eadd179911564af119",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x2De2C741658f0Ae7b2DdD8EAdD179911564af119.png",
+    "availability": 100,
+    "successRate": 18.4,
+    "currentVotePower": "20408097845845343213991732",
+    "currentRewardEpochVotePower": "20405505859495343213991732",
+    "balance": "41699129944813638698884",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "9510428032122916676609",
+    "totalEpochReward": "47551021614937140701447"
+  },
+  {
+    "chainId": 19,
+    "name": "SignalChamp",
+    "description": "SignalChamp is a premium and super-fast delegation service. Enjoy high reward rates and low fees with just a few clicks.",
+    "url": "https://www.signalchamp.com",
+    "address": "0x263feca2d46754aa71bc4cfc460e8e3055699324",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x263fEca2d46754Aa71BC4Cfc460e8E3055699324.png",
+    "availability": 100,
+    "successRate": 18.3,
+    "currentVotePower": "20367663494532006248089696",
+    "currentRewardEpochVotePower": "20356480268140006248089696",
+    "balance": "537887483049148781428",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8623286970546720777521",
+    "totalEpochReward": "40380184491480112261676"
+  },
+  {
+    "chainId": 19,
+    "name": "Wonderftso",
+    "description": "The best ftso around",
+    "url": "https://www.wonderftso.eu",
+    "address": "0x78a99aa32cde18b33b150941fbf718715d15af6a",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x78A99Aa32cDe18B33B150941fBF718715d15Af6a.png",
+    "availability": 100,
+    "successRate": 18.3,
+    "currentVotePower": "20061384000000000000000000",
+    "currentRewardEpochVotePower": "20061384000000000000000000",
+    "balance": "138504246404585113634",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "9086692617781047608385",
+    "totalEpochReward": "45433463088905238041927"
+  },
+  {
+    "chainId": 19,
+    "name": "Scintilla",
+    "description": "High accuracy signal provider to the Songbird Network.",
+    "url": "https://www.scintilla.io",
+    "address": "0xe70d5351a842131c66aaebc4bd604912bf3cba72",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xE70d5351a842131c66AAeBC4bD604912BF3cBa72.png",
+    "availability": 94.9,
+    "successRate": 18.1,
+    "currentVotePower": "20858866130333280872055110",
+    "currentRewardEpochVotePower": "20856020530328500225984392",
+    "balance": "417922176314235252315",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7957206008649815248319",
+    "totalEpochReward": "39786030043249076241599"
+  },
+  {
+    "chainId": 19,
+    "name": "Flare Beacon",
+    "description": "Songbird network signal provider. Beaconing since inception",
+    "url": "https://flarebeacon.xyz",
+    "address": "0x633ce03ea66d910c15869e1552fdccc2bf9aad87",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x633CE03ea66d910c15869e1552fDccC2bf9aAD87.png",
+    "availability": 100,
+    "successRate": 17.1,
+    "currentVotePower": "20003335037422275323036904",
+    "currentRewardEpochVotePower": "20001651811030275323036904",
+    "balance": "121662910459955319066",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7797259903844130411389",
+    "totalEpochReward": "38986299519220652056949"
+  },
+  {
+    "address": "0xd3d070a365f5a827f1575c771a1e9de61eac8cb2",
+    "availability": 91.7,
+    "successRate": 17.1,
+    "currentVotePower": "764226770005750000000000",
+    "currentRewardEpochVotePower": "764226770005750000000000",
+    "balance": "29833210147612841712",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "1030713652500154124548",
+    "totalEpochReward": "2106892998071234634950"
+  },
+  {
+    "IPs": "34.125.86.132/32",
+    "name": "Ruche FTSO",
+    "contact_person": "Damien Bichete",
+    "email": "ruch01@gmx.net",
+    "url": "",
+    "country": "",
+    "address": "0x82f954918b9fb81e59b83606e82b2fc0d5bdc1ac",
+    "availability": 100,
+    "successRate": 16.9,
+    "currentVotePower": "20000000000000000000000000",
+    "currentRewardEpochVotePower": "20000000000000000000000000",
+    "balance": "262076939939191523680",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8803148206258457930442",
+    "totalEpochReward": "44015741031292289652211"
+  },
+  {
+    "address": "0x6c6f1d0fbf5e21c3f8b2ae6ef3e2ef479f95f438",
+    "availability": 83.3,
+    "successRate": 16.7,
+    "currentVotePower": "20000000000000000000000000",
+    "currentRewardEpochVotePower": "20000000000000000000000000",
+    "balance": "20405520015097523124446",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "6142405230459009561105",
+    "totalEpochReward": "30712026152295047805528"
+  },
+  {
+    "chainId": 19,
+    "name": "HONO-TSO",
+    "description": "Hono (Jap Honoo) It's the flame that ignites the game. Let's play!",
+    "url": "https://hono-tso.com",
+    "address": "0xa467acee8127c55fb1f4d3b863ea5b0c4f599b9b",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xa467ACeE8127C55Fb1f4d3b863EA5b0C4F599b9b.png",
+    "availability": 100,
+    "successRate": 16.5,
+    "currentVotePower": "20461795985025481975928960",
+    "currentRewardEpochVotePower": "20430055457273281975928960",
+    "balance": "10138328750000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7895875787808858446869",
+    "totalEpochReward": "39479340290749505844515"
+  },
+  {
+    "chainId": 19,
+    "name": "ACDTftso",
+    "description": "ACDTftso is an Italian provider. We offer near real time prices with an high accuracy rate and a simple Webapp for interact with Flare Network.",
+    "url": "https://www.acdtftso.it",
+    "address": "0x86ec5c8ce7a4dd7762cff205d64bfc0c272feb6d",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x86eC5c8Ce7a4DD7762Cff205d64Bfc0C272feB6d.png",
+    "availability": 96.5,
+    "successRate": 16.4,
+    "currentVotePower": "20009549013401771934842250",
+    "currentRewardEpochVotePower": "20001284013401771934842250",
+    "balance": "133479542966982156501",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8271985962863942638606",
+    "totalEpochReward": "41359929814319713193032"
+  },
+  {
+    "chainId": 19,
+    "name": "Flare Portal",
+    "description": "Flare Portal - FTSO Data Provider - provides accurate price and reliable globally sourced data. Using your Bifrost wallet to delegate your vote to us is greatly appreciated.",
+    "url": "https://flareportal.com",
+    "address": "0x9225db8b30a59d8dd15448e2e5918bd160262b5d",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x9225db8B30A59D8Dd15448E2E5918BD160262b5D.png",
+    "availability": 100,
+    "successRate": 16.2,
+    "currentVotePower": "21074069215151917419336909",
+    "currentRewardEpochVotePower": "20080991257518700000000000",
+    "balance": "8173190292865762747",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7358533593428410153566",
+    "totalEpochReward": "36792667967142050767833"
+  },
+  {
+    "address": "0xb76865823f68b48b02bb9604a2cd886eb49a9f3d",
+    "availability": 100,
+    "successRate": 16.1,
+    "currentVotePower": "20000100000000000000000000",
+    "currentRewardEpochVotePower": "20000100000000000000000000",
+    "balance": "241122421232226854236",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8582857485278654402995",
+    "totalEpochReward": "42913429162101351447553"
+  },
+  {
+    "chainId": 19,
+    "name": "InGen.FTSO",
+    "description": "We are an Asian dynamic data provider for the FTSO bringing growth to the decentralized Flare.",
+    "url": "https://www.ftso.ingen.com.ph",
+    "address": "0x664e070592063bfe5072f0ac25c6c11e5ccf9928",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x664e070592063bFE5072F0aC25C6C11e5ccF9928.png",
+    "availability": 98.3,
+    "successRate": 13.6,
+    "currentVotePower": "20001200000000000000000000",
+    "currentRewardEpochVotePower": "20001200000000000000000000",
+    "balance": "49419726093983813435",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8305757486774234416180",
+    "totalEpochReward": "41528787433871172080901"
+  },
+  {
+    "chainId": 19,
+    "name": "Ugly Kitty",
+    "description": "We are a Flare and Songbird blockchain networks data signals provider based in the USA.",
+    "url": "https://uglykitty.xyz",
+    "address": "0x35149714467f2fe71b46eeb4d11689ed8728bd25",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x35149714467F2FE71b46eEb4d11689ED8728Bd25.png",
+    "availability": 100,
+    "successRate": 13.4,
+    "currentVotePower": "20305955513348678549412640",
+    "currentRewardEpochVotePower": "20299531756369806777818376",
+    "balance": "104726795019507032944",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4212922129915407553329",
+    "totalEpochReward": "21064610649577037766646"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO Brasil",
+    "description": "FTSO Brasil is the first ftso in South America working together with Flare Networks to empower token holders with knowledge and rewards.",
+    "url": "https://www.ftso-brasil.com.br",
+    "address": "0xb9dba66d8e88c6d620f11ce32553e0cfbc776926",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xb9dBa66d8e88c6D620F11Ce32553E0CfBC776926.png",
+    "availability": 100,
+    "successRate": 13.4,
+    "currentVotePower": "20014718960000000000000000",
+    "currentRewardEpochVotePower": "20026147729406000000000000",
+    "balance": "341389867099017237820",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7464259724416626814351",
+    "totalEpochReward": "37321298622083134071755"
+  },
+  {
+    "address": "0x889fd8c79fcc81e619b720bd589154c2c9fd74e9",
+    "availability": 99.2,
+    "successRate": 13.2,
+    "currentVotePower": "21296128785412540658392569",
+    "currentRewardEpochVotePower": "21391902678359368974518736",
+    "balance": "6381689363413906138001",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7414407750249160941705",
+    "totalEpochReward": "37072038751245804708528"
+  },
+  {
+    "chainId": 19,
+    "name": "SolidiFi FTSO",
+    "description": "The SolidiFi FTSO Data provider aims to provide accurate price information to the Songbird Network",
+    "url": "https://solidifi.app",
+    "address": "0x769530a9f2e4624ae2d6869869d510d4cd55b545",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x769530a9F2e4624aE2D6869869d510D4cd55b545.png",
+    "availability": 98.3,
+    "successRate": 12.6,
+    "currentVotePower": "1214601791409542932752127",
+    "currentRewardEpochVotePower": "1388661696755256445640950",
+    "balance": "1408131254142459978346",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "649769627745835490135",
+    "totalEpochReward": "2363096116849425874533"
+  },
+  {
+    "chainId": 19,
+    "name": "African Proofs",
+    "description": "We are a Flare and Songbird blockchain networks data signals provider based in South Africa. We provide a consistent and honest account of real world information for use in the Flare Networks ecosystem of chains.",
+    "url": "https://proofs.africa",
+    "address": "0xaf31ca175bbe0c6dd667c8403b65a33b28238afa",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xaF31CA175bbE0C6dD667c8403B65a33b28238afa.png",
+    "availability": 100,
+    "successRate": 12.3,
+    "currentVotePower": "20016811012005475844797039",
+    "currentRewardEpochVotePower": "20020959123986375844797039",
+    "balance": "68676926712779436571",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "6604741429190736010422",
+    "totalEpochReward": "33023707145953680052113"
+  },
+  {
+    "chainId": 19,
+    "name": "PRICEKRAKEN",
+    "description": "Germany based FTSO data provider with passion for improvements",
+    "url": "https://www.pricekraken.de",
+    "address": "0xef4ef2f3b8c69282846a98341095baa018247553",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xEF4ef2f3B8C69282846a98341095baa018247553.png",
+    "availability": 100,
+    "successRate": 12.3,
+    "currentVotePower": "20002229000000000000000000",
+    "currentRewardEpochVotePower": "20002212500000000000000000",
+    "balance": "473596512188500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5401804785309196819497",
+    "totalEpochReward": "27009023926545984097486"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO EU",
+    "description": "Ftso.eu is one of the oldest signal providers building on Flare, with a strong community and presence. Our signals are weighted, dynamic, resilient, processed with an innovative approach on a distributed P2P network to guarantee their accuracy.",
+    "url": "https://www.ftso.eu",
+    "address": "0x010a16c53f33e4d93892f00897965578b55a8cfc",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x010a16c53F33E4d93892f00897965578b55a8CFC.png",
+    "availability": 100,
+    "successRate": 12,
+    "currentVotePower": "35358148872473290142737431",
+    "currentRewardEpochVotePower": "35865465090214371198091463",
+    "balance": "800315048957475418973",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "8419146461629770063157",
+    "totalEpochReward": "56127643077531800421051"
+  },
+  {
+    "chainId": 19,
+    "name": "Dione",
+    "description": "Dione prides itself as a gateway between the heart and the veins of the network, Composed of a team of data experts to provide timely and consistent insights to unlock the network's potential for stable rewards to our delegators",
+    "url": "https://dionenetwork.io",
+    "address": "0x285430390a72ce038f6e54bf10f24b94a550474f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x285430390a72Ce038f6e54BF10f24B94A550474f.png",
+    "availability": 100,
+    "successRate": 11.8,
+    "currentVotePower": "20033027612277500000000000",
+    "currentRewardEpochVotePower": "20033007330463500000000000",
+    "balance": "74486712408023208388",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5351363518034064229378",
+    "totalEpochReward": "26756817590170321146893"
+  },
+  {
+    "chainId": 19,
+    "name": "Sparkles FTSO",
+    "description": "Sparkles FTSO is an extension of Sparkles, an NFT platform on the Songbird/Flare Network. Our philosophy is to push boundaries and create standards, be creative and make everything we do fun and interactive for our community.",
+    "url": "https://sparklesnft.com",
+    "address": "0x3012c799565010c3b090d252839a3d24f3b766be",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x3012c799565010C3b090D252839a3D24f3b766bE.png",
+    "availability": 99.2,
+    "successRate": 11.5,
+    "currentVotePower": "22891966981042494160971105",
+    "currentRewardEpochVotePower": "22789403650301238614028365",
+    "balance": "415813060645523617154",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5110999062555347259229",
+    "totalEpochReward": "25554995312776736296148"
+  },
+  {
+    "chainId": 19,
+    "name": "Oracle Beast FTSO",
+    "description": "Providing a Flare Time Series Oracle for those who want to delegate like a BEAST!",
+    "url": "https://www.oracle-beast.com",
+    "address": "0x3ed7b2ccc4ba420cdce2ba232d3efdc13075f16d",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x3ed7b2cCC4BA420CdcE2BA232d3efdc13075F16D.png",
+    "availability": 99.2,
+    "successRate": 11.3,
+    "currentVotePower": "20009437300000000000000000",
+    "currentRewardEpochVotePower": "20009426364435848819322577",
+    "balance": "4970949228529839892798",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "6914627923742190487435",
+    "totalEpochReward": "34573139618710952437177"
+  },
+  {
+    "chainId": 19,
+    "name": "Comfy Nodes",
+    "description": "Only the comfiest rates.",
+    "url": "https://www.comfynodes.com",
+    "address": "0x821bde578955b35f9f2c9022268e5bc748994f71",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x821BDE578955B35F9F2C9022268E5BC748994f71.png",
+    "availability": 100,
+    "successRate": 11.2,
+    "currentVotePower": "20161033822034499999990000",
+    "currentRewardEpochVotePower": "20161033822034499999990000",
+    "balance": "9565524955769188352979",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5948259958488482392630",
+    "totalEpochReward": "28966726710463006718081"
+  },
+  {
+    "chainId": 19,
+    "name": "4DadsFTSO",
+    "description": "4 dads, a bunch of kids and a FTSO. Furthering efforts of decentralization for Flare Network and it’s canary network, Songbird.",
+    "url": "https://4dads.io",
+    "address": "0x35d73107a089ac2b3b14a6681d8c408aab9568d3",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x35D73107A089Ac2b3b14a6681D8c408Aab9568D3.png",
+    "availability": 100,
+    "successRate": 11,
+    "currentVotePower": "25093059879259322930045718",
+    "currentRewardEpochVotePower": "24806412387270823022427952",
+    "balance": "230516840665886757396",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "7468048032641440623610",
+    "totalEpochReward": "37340240163207203118050"
+  },
+  {
+    "chainId": 19,
+    "name": "Sun-Dara",
+    "description": "Sun-Dara is an Asian STSO provider based primarily in Bangladesh with connections to the United Kingdom. We try and keep things simple and easy to understand. Check out our website for more information and service status updates.",
+    "url": "https://sun-dara.co.uk",
+    "address": "0x7394923453fc2f606cfb4d0ea1a5438bb8260d08",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x7394923453FC2F606cfb4D0ea1A5438BB8260D08.png",
+    "availability": 97.5,
+    "successRate": 11,
+    "currentVotePower": "21125354414170844941080892",
+    "currentRewardEpochVotePower": "21561124988342346778154391",
+    "balance": "237856870974212678773249",
+    "fee": {
+      "fee": "200",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "616803459530296942992",
+    "totalEpochReward": "30840172976514847149607"
+  },
+  {
+    "IPs": "54.144.243.155/32 67.205.149.142",
+    "name": "Invitech",
+    "contact_person": "Igor Trubnikov",
+    "email": "invicoder@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0xd5756a41dca9d40be406ba2d0eb3dc340e03adba",
+    "availability": 100,
+    "successRate": 11,
+    "currentVotePower": "20000000000000000000000000",
+    "currentRewardEpochVotePower": "20000000000000000000000000",
+    "balance": "864060508106884149784",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4565461502389780052908",
+    "totalEpochReward": "22827307511948900264542"
+  },
+  {
+    "chainId": 19,
+    "name": "XAWC FTSO",
+    "description": "Helping provide dentralised prices to Songbird and Flare.",
+    "url": "https://ftso.xawc.live",
+    "address": "0x190c6f470a866db58a6c17631e24b07be257eaf5",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x190C6f470A866Db58A6c17631e24b07BE257eAf5.png",
+    "availability": 100,
+    "successRate": 10.2,
+    "currentVotePower": "20284374878516056353551900",
+    "currentRewardEpochVotePower": "20279609878516056353551900",
+    "balance": "386212540794452857897",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4629212923181350963042",
+    "totalEpochReward": "23146064615906754815211"
+  },
+  {
+    "chainId": 19,
+    "name": "MyFTSO",
+    "description": "MyFtso is a community centric data provider. We are looking to deliver accurate and reliable price feeds to the Flare/Songbird Networks to maximize returns for all.",
+    "url": "https://myftso.xyz",
+    "address": "0x399a2de69e38d93bc397eb2b1f5487bd25a71c00",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x399A2dE69e38D93bc397Eb2b1f5487bD25a71C00.png",
+    "availability": 100,
+    "successRate": 10.2,
+    "currentVotePower": "20008834974126727111087343",
+    "currentRewardEpochVotePower": "20060502303520355350132927",
+    "balance": "339154841999444875936",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4736076776846593368071",
+    "totalEpochReward": "23680383884232966840358"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO AU",
+    "description": "FTSO AU provide accurate and reliable price feeds to the Flare Network and a transparent, incentivised, risk-free delegation service. We do so by leveraging the distributed nature of the network and its participants.",
+    "url": "https://www.ftso.com.au",
+    "address": "0x499017adb21d6f70480e4e6224cf4144071c1461",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x499017ADB21D6f70480E4E6224cf4144071C1461.png",
+    "availability": 100,
+    "successRate": 10.2,
+    "currentVotePower": "43350394102196372929412616",
+    "currentRewardEpochVotePower": "43923043320766012936428846",
+    "balance": "1609693546665500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "11854839658266112331943",
+    "totalEpochReward": "59274198291330561659715"
+  },
+  {
+    "address": "0xa41d19f4258a388c639b7ccd938fce3fb7d05e86",
+    "availability": 100,
+    "successRate": 9.9,
+    "currentVotePower": "20005759046665760000000000",
+    "currentRewardEpochVotePower": "20004279046665760000000000",
+    "balance": "486404446769251596818",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4183925016981272700790",
+    "totalEpochReward": "20919625084906363503952"
+  },
+  {
+    "chainId": 19,
+    "name": "Odin",
+    "description": "California data provider on the Songbird Network. Aggregating hundreds of external data points in order to provide the most accurate prices to the FTSO system.",
+    "url": "https://odinftso.com",
+    "address": "0x8fdbcb218561776759702b175084dba856282a88",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x8FdBcb218561776759702b175084dBa856282a88.png",
+    "availability": 100,
+    "successRate": 9.7,
+    "currentVotePower": "20518750456784000000000000",
+    "currentRewardEpochVotePower": "20522725989582500000000000",
+    "balance": "391528033301985636721",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4614761885536364213822",
+    "totalEpochReward": "23073809427681821069110"
+  },
+  {
+    "chainId": 19,
+    "name": "TheGrungies",
+    "description": "TheGrungies FTSO is a Signal Provider based on the TheGrungies NFT Community",
+    "url": "https://ftso.thegrungies.com",
+    "address": "0x2c293599ca61bb53e8ff82c8a19c2a8b883ea23f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x2C293599ca61bb53e8fF82c8a19c2A8B883ea23f.png",
+    "availability": 100,
+    "successRate": 9.6,
+    "currentVotePower": "20630930741137215126338318",
+    "currentRewardEpochVotePower": "20609791282100903836667220",
+    "balance": "123606801300000441052",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "6192757885707446621567",
+    "totalEpochReward": "30962138758760090787408"
+  },
+  {
+    "chainId": 19,
+    "name": "Tailwind FTSO",
+    "description": "Tailwind FTSO is a European provider run by IT professionals and developers using enterprise technologies to deliver accurate and reliable data.",
+    "url": "https://tailwindftso.com",
+    "address": "0x04bd6870d801d68cd58163900b8eed6bddda29cb",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x04Bd6870d801D68CD58163900B8EED6BDDdA29cB.png",
+    "availability": 100,
+    "successRate": 9.5,
+    "currentVotePower": "20143586216894405141100000",
+    "currentRewardEpochVotePower": "20143586216894405141100000",
+    "balance": "3804518088805263466498",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5526898482847612540582",
+    "totalEpochReward": "27634492414238062702911"
+  },
+  {
+    "chainId": 19,
+    "name": "Envision",
+    "description": "Providing reliable data feeds to the Songbird Network",
+    "url": "https://www.envisionftso.com",
+    "address": "0x58cd43e9fcdbd4d0f507ab4f6029db8032746da8",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x58Cd43E9FcdBd4D0F507aB4f6029dB8032746da8.png",
+    "availability": 100,
+    "successRate": 9.5,
+    "currentVotePower": "20171811017542500000000000",
+    "currentRewardEpochVotePower": "20172408517542500000000000",
+    "balance": "1410369045924060955056",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5808329358292322771072",
+    "totalEpochReward": "29041646791461613855360"
+  },
+  {
+    "chainId": 19,
+    "name": "SSDS",
+    "description": "SSD Speedy LLC - A professionally manager Flare/Songbird signal provider - Maximize your rewards. Delegate to us for accurate pricing.",
+    "url": "https://www.ssdspeedy.com/flare",
+    "address": "0x15bc48091332808391ac700a980b12dd4fc266fb",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x15bC48091332808391ac700A980B12dD4FC266Fb.png",
+    "availability": 100,
+    "successRate": 9.3,
+    "currentVotePower": "38927483400488073851374480",
+    "currentRewardEpochVotePower": "38910291979929961393916447",
+    "balance": "985495825000000203981",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "10234323864692346465011",
+    "totalEpochReward": "51171619323461732325058"
+  },
+  {
+    "chainId": 19,
+    "name": "SGBFTSO.com",
+    "description": "SGBFTSO.com is a new innovator in this space developing a fast and efficient price provider written in GoLang. We are active in the Flare/Songbird community and always happy to help!",
+    "url": "https://sgbftso.com",
+    "address": "0xbadf00d6387958a3e7747c0a0cf5e5a06dcc90c0",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xbADF00D6387958a3E7747C0A0CF5E5a06dcc90c0.png",
+    "availability": 97.5,
+    "successRate": 9.3,
+    "currentVotePower": "20506361078198487672791353",
+    "currentRewardEpochVotePower": "20505706864268505601597915",
+    "balance": "74840993852709680601",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4448684390619123363564",
+    "totalEpochReward": "22243421953095616817822"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO UK",
+    "description": "Signal provider on the Flare Network. UK-based team with global coverage. Providing robust and weighted signals. Dedicated to unlocking value.",
+    "url": "https://www.ftso.uk",
+    "address": "0xb9b7355f5b71cee345311921d247b1d2ba5cfe90",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xB9b7355f5b71CEE345311921D247b1D2bA5cFe90.png",
+    "availability": 100,
+    "successRate": 9.1,
+    "currentVotePower": "23866283471532287876482089",
+    "currentRewardEpochVotePower": "24024609538290019050839317",
+    "balance": "13461163842242493166344",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "6974974189438482266117",
+    "totalEpochReward": "34874870947192411330585"
+  },
+  {
+    "chainId": 19,
+    "name": "Topbird",
+    "description": "Topbird is a team of blockchain engineers distributed across the world. We host reliable infrastructure and provide accurate price signals to FTSOs on Songbird network.",
+    "url": "https://topbird.info",
+    "address": "0xf45e6102e702a95f633d1d914f6fb5f0ca344e80",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xf45e6102E702A95f633D1D914f6FB5f0cA344E80.png",
+    "availability": 100,
+    "successRate": 9,
+    "currentVotePower": "20025956623251600000000000",
+    "currentRewardEpochVotePower": "20025927623251600000000000",
+    "balance": "683033675255323683165",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4429615420125490586375",
+    "totalEpochReward": "22103926483688192888276"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSOExpress",
+    "description": "FTSO Express, looking to be a no frills, minimal FTSO Provider",
+    "url": "https://ftso.express",
+    "address": "0x33ddae234e403789954cd792e1febdbe2466adc2",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x33DDAe234e403789954CD792e1feBdBE2466ADC2.png",
+    "availability": 100,
+    "successRate": 8.9,
+    "currentVotePower": "20088239335325939243983962",
+    "currentRewardEpochVotePower": "20085579352103939243983962",
+    "balance": "448002999225000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4228758257753615917523",
+    "totalEpochReward": "21143770235085868652450"
+  },
+  {
+    "IPs": "209.97.135.171",
+    "name": "TBD-Name",
+    "contact_person": "Morris L",
+    "email": "morriskamau@hotmail.co.uk",
+    "url": "",
+    "country": "",
+    "address": "0x8d5ddf992d582afa3b2062d56a7ffb8028ab59a2",
+    "availability": 100,
+    "successRate": 8.7,
+    "currentVotePower": "20101204999999999999929995",
+    "currentRewardEpochVotePower": "20121204999999999999929995",
+    "balance": "703459306766843892947",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "3764671350045780717634",
+    "totalEpochReward": "18380479493715530580397"
+  },
+  {
+    "chainId": 19,
+    "name": "1FTSO",
+    "description": "Providing accurate on-time data to the network.",
+    "url": "https://1ftso.com",
+    "address": "0xecefe81ff88e5609704697de20cc36990b76d633",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xeceFe81ff88E5609704697De20Cc36990b76d633.png",
+    "availability": 100,
+    "successRate": 8.7,
+    "currentVotePower": "20493896470843450121220980",
+    "currentRewardEpochVotePower": "20779831226020950121220980",
+    "balance": "138377885933358228563",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4730260103703342025275",
+    "totalEpochReward": "23651300518516710126375"
+  },
+  {
+    "chainId": 19,
+    "name": "HEWG",
+    "description": "HEWG strikes to provide best FTSO price data.",
+    "url": "https://hewg.org",
+    "address": "0x819eab111bd9a6e595187a914240529d2efff21f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x819eaB111BD9A6E595187A914240529D2EFfF21f.png",
+    "availability": 91.7,
+    "successRate": 8.5,
+    "currentVotePower": "20752304779811965855819800",
+    "currentRewardEpochVotePower": "20752299007336800000000000",
+    "balance": "181483286000282457173951",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "3994910789473163538673",
+    "totalEpochReward": "19974553947365817693368"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO Wales",
+    "description": "Providing accurate and reliable price signals to the Songbird network. Delegate your SGB with us and start earning risk-free rewards today!",
+    "url": "https://ftso.wales",
+    "address": "0xdd27994108c788613800a8356253aad99a5daed5",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xDD27994108c788613800A8356253Aad99A5DAeD5.png",
+    "availability": 98.3,
+    "successRate": 8.5,
+    "currentVotePower": "20354883439593395645050157",
+    "currentRewardEpochVotePower": "20350956626150895645050157",
+    "balance": "175279143045042654411",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4571731552549945385681",
+    "totalEpochReward": "22858657762749726928406"
+  },
+  {
+    "address": "0xe304af184b9ca77e3576aef834a4dc1a43ebfa70",
+    "availability": 100,
+    "successRate": 8.1,
+    "currentVotePower": "29360013395486270812862308",
+    "currentRewardEpochVotePower": "25940050829290215331660903",
+    "balance": "484721656570729317584",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "5770873158097027124067",
+    "totalEpochReward": "28854365790485135620337"
+  },
+  {
+    "address": "0xf750178b0155c651b4fff490ce01d0736f1b54c6",
+    "availability": 100,
+    "successRate": 7.9,
+    "currentVotePower": "50000000000000000000",
+    "currentRewardEpochVotePower": "0",
+    "balance": "1240424703228500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x4eb408fa585a5c66e523a4ae5f5706374ec9e8c7",
+    "availability": 100,
+    "successRate": 7.8,
+    "currentVotePower": "933949985358469167862006",
+    "currentRewardEpochVotePower": "884783785358469167862006",
+    "balance": "243041713549677527709",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "197260539432641963441",
+    "totalEpochReward": "982996355881291430909"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO GG",
+    "description": "FTSO GG a data provider from Florida/USA",
+    "url": "https://ftso.gg",
+    "address": "0x32fe8ac862453dc1b8a390cd3af821b4fa6ff39d",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x32fE8AC862453DC1B8a390CD3AF821b4FA6fF39D.png",
+    "availability": 100,
+    "successRate": 7.4,
+    "currentVotePower": "20310743902547974529103872",
+    "currentRewardEpochVotePower": "20056837332416974529103872",
+    "balance": "741711974037366262776",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "3342258688411155958444",
+    "totalEpochReward": "16711293442055779792221"
+  },
+  {
+    "chainId": 19,
+    "name": "FlareFTSO",
+    "description": "FlareFTSO is a signal provider for the Flare Time Series Oracle, providing reliable price feeds, delegation services, validator services, and other solutions to the crypto community.",
+    "url": "https://flareftso.com",
+    "address": "0x4f7f5f8ef4a3cc11f94e875393ee909eb5f824ea",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4F7f5F8eF4a3CC11f94e875393Ee909Eb5f824ea.png",
+    "availability": 100,
+    "successRate": 6.9,
+    "currentVotePower": "25894433534595551181580522",
+    "currentRewardEpochVotePower": "25342764133116975031991652",
+    "balance": "82153591266269604032",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4079106770111969795748",
+    "totalEpochReward": "20395533850559848978741"
+  },
+  {
+    "chainId": 19,
+    "name": "uGaenn",
+    "description": "Your gain is our first priority.",
+    "url": "https://ugaenn.io",
+    "address": "0xb53d69b2519ac9f6d65cff8e7824bf09f7064d61",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xb53D69B2519aC9F6D65cff8e7824Bf09F7064D61.png",
+    "availability": 100,
+    "successRate": 6.8,
+    "currentVotePower": "22272166691042259714477032",
+    "currentRewardEpochVotePower": "22273286255123759714477032",
+    "balance": "6666467438110342306809",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "2202889331681772610454",
+    "totalEpochReward": "14685928877878484069697"
+  },
+  {
+    "chainId": 19,
+    "name": "EDPFTSO",
+    "description": "Enterprise Data Provider FTSO",
+    "url": "https://edp-ftso.com",
+    "address": "0x1c602a30335187a97d8061ffffd4522796de82bf",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x1C602a30335187A97D8061Ffffd4522796DE82bF.png",
+    "availability": 100,
+    "successRate": 6.7,
+    "currentVotePower": "20006201000000000000000000",
+    "currentRewardEpochVotePower": "20006201000000000000000000",
+    "balance": "286529180848189801567",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "2515253963787680569652",
+    "totalEpochReward": "12576269818938402848263"
+  },
+  {
+    "chainId": 19,
+    "name": "Starlink Oracle",
+    "description": "Starlink Oracle aggregates data from reliable sources. This ensures that our data algorithm computes accurate prices to consistently submit on delegators behalf. Building the future of global decentralized oracle services.",
+    "url": "https://starlinkoracle.com",
+    "address": "0xa9a143fee74e12e97dc794fd1340f851813bda92",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xA9a143FEe74E12E97DC794fD1340f851813BDA92.png",
+    "availability": 87.3,
+    "successRate": 6,
+    "currentVotePower": "736282660732906812965914",
+    "currentRewardEpochVotePower": "724761163670906812965914",
+    "balance": "62296957215287569538",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "164978143635925890067",
+    "totalEpochReward": "824886165583784464684"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSOCAN",
+    "description": "FTSO Canada is your partner to help you build your passive income on the Flare Network, by providing the Flare Network with a fast and efficient price provider.",
+    "url": "https://ftsocan.com",
+    "address": "0x7c255e428e95bebc76e944d49d4f460c84b3a3c3",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x7C255e428e95bEbc76e944D49D4F460C84b3A3c3.png",
+    "availability": 100,
+    "successRate": 5.9,
+    "currentVotePower": "21137055114631000000000000",
+    "currentRewardEpochVotePower": "20955692500000000000000000",
+    "balance": "181210814247327638807",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "2954976590108495455586",
+    "totalEpochReward": "19698245942575210602469"
+  },
+  {
+    "address": "0x021305bb75b9d7f720fd328d137114c930917b62",
+    "availability": 100,
+    "successRate": 5.2,
+    "currentVotePower": "416725980000000000000000",
+    "currentRewardEpochVotePower": "416725980000000000000000",
+    "balance": "15152804926832496201001",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "71138222079555316387",
+    "totalEpochReward": "355691110397776581935"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO4ALL",
+    "description": "FTSO4ALL is a reliable data provider that aims to become the reference data provider for everyone",
+    "url": "https://ftso4all.xyz",
+    "address": "0x0937e91c116767ffd2256abc15b67561bad5d1c2",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0937E91c116767ffD2256ABc15B67561BaD5d1C2.png",
+    "availability": 100,
+    "successRate": 5.1,
+    "currentVotePower": "20192619578282000000000000",
+    "currentRewardEpochVotePower": "20192587698282000000000000",
+    "balance": "2693786644926764612569",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "4104979839168181109896",
+    "totalEpochReward": "20524891064187302407345"
+  },
+  {
+    "chainId": 19,
+    "name": "SAKURA",
+    "description": "Beautiful Japanese SAKURA and beautiful Flare Network technology.",
+    "url": "https://sakura-japan.com",
+    "address": "0x1a696acb220a4f76153c779f828d0ba99028770a",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x1a696Acb220a4f76153c779f828d0Ba99028770a.png",
+    "availability": 99.2,
+    "successRate": 5,
+    "currentVotePower": "20240911781966970000015500",
+    "currentRewardEpochVotePower": "20236309438831000000015500",
+    "balance": "16620374916905721599",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "3259883099846468855315",
+    "totalEpochReward": "16180438800404042249599"
+  },
+  {
+    "address": "0x96b83d3f73e44c9a96388cf1d116595551daeb5a",
+    "availability": 100,
+    "successRate": 5,
+    "currentVotePower": "964160000000000000000000",
+    "currentRewardEpochVotePower": "964160000000000000000000",
+    "balance": "2845629086961508684872",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "705207618729461211229",
+    "totalEpochReward": "705207618729461211229"
+  },
+  {
+    "IPs": "3.132.51.246",
+    "name": "WorldsFTSO",
+    "contact_person": "Ved",
+    "email": "WorldsFTSO@hotmail.com",
+    "url": "",
+    "country": "",
+    "address": "0x08eb910e9288e5c6baf6e1a74d5d1d23284360a4",
+    "availability": 91.7,
+    "successRate": 2.9,
+    "currentVotePower": "20000053224570476000004000",
+    "currentRewardEpochVotePower": "20000053224570476000004000",
+    "balance": "188636916889848748820",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "2395820651903888681983",
+    "totalEpochReward": "11978975744691038787912"
+  },
+  {
+    "address": "0xae45a3c0ad97504814752ea74820ac14991e030c",
+    "availability": 69.4,
+    "successRate": 1.9,
+    "currentVotePower": "20036520000000000000000000",
+    "currentRewardEpochVotePower": "20036520000000000000000000",
+    "balance": "2693619231022187239658",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "943600545538659584675",
+    "totalEpochReward": "4683854211721052674468"
+  },
+  {
+    "IPs": "35.176.232.63 52.76.102.80",
+    "name": "tSoveriegn",
+    "contact_person": "Rob",
+    "email": "robhourigan1145@gmail.com",
+    "url": "https://tsovereign.xyz",
+    "country": "United States",
+    "address": "0x66064b9755ff3c26c380be0fbe7f38df6222ba15",
+    "availability": 91.7,
+    "successRate": 1.8,
+    "currentVotePower": "20061418540176090319800000",
+    "currentRewardEpochVotePower": "20062218540176090319800000",
+    "balance": "190216881349117110388",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "948639510006566047452",
+    "totalEpochReward": "4685078603568259556029"
+  },
+  {
+    "address": "0xb6ded9d9ca19af10c67f9a8be8ca75e38e166faa",
+    "availability": 8.3,
+    "successRate": 0.4,
+    "currentVotePower": "424477546933000000000000",
+    "currentRewardEpochVotePower": "366168412902000000000000",
+    "balance": "98765980900898333643",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "20639688762150959929",
+    "totalEpochReward": "21324765929866611552"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSORK",
+    "description": "Songbird time series oracle signal provider by Adark d.o.o",
+    "url": "https://www.ftso.adark.io",
+    "address": "0xf1bd86b547a25921f800adbb3f35f6e88d336c72",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xF1Bd86b547a25921F800AdBb3F35f6E88D336c72.png",
+    "availability": 100,
+    "successRate": 0.2,
+    "currentVotePower": "20011816700000999996245984",
+    "currentRewardEpochVotePower": "20011816700000999996245984",
+    "balance": "642808739217975575454",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "827659985779198695283",
+    "totalEpochReward": "4138299763461747280806"
+  },
+  {
+    "chainId": 19,
+    "name": "WEBB FTSO",
+    "description": "WEBB FTSO is a FTSO that focuses on Simplicity and Accuracy.",
+    "url": "https://webbftso.com",
+    "address": "0x01793cac76c24f3b739128372d4a25b49ec4f963",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x01793Cac76c24f3b739128372D4A25B49eC4f963.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "20021254015685994352540268",
+    "currentRewardEpochVotePower": "20021254015685994352540268",
+    "balance": "1687922982041286412490",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "1085442462946357857090",
+    "totalEpochReward": "5404644881555821683056"
+  },
+  {
+    "IPs": "34.120.151.15",
+    "name": "BlazerCore",
+    "contact_person": "",
+    "email": "",
+    "url": "https://blazercore.xyz",
+    "country": "United States",
+    "address": "0x03e8d670cf8a8df175bea62a9399302e96b42dbd",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "282208768829333614592",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Dragon Oracle",
+    "description": "Your Asia based professional FTSO signal provider",
+    "url": "https://dragonoracle.io",
+    "address": "0x0438173837b6e4ae11c724ae06a128c4b9f0edf2",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x0438173837B6e4Ae11C724Ae06A128c4B9f0EdF2.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "109244450541671696743047",
+    "currentRewardEpochVotePower": "109080292044371696743047",
+    "balance": "180622340269100413928",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x07d495e8999f43bb856e0aadb1bc296fa7d8c3e8",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "619092315402500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.125.133.190",
+    "name": "Blue_FTSO",
+    "contact_person": "Milton Jr Suarez",
+    "email": "blueftso@gmx.net",
+    "url": "",
+    "country": "",
+    "address": "0x0e780e41e253391187c57533fa56a850c4b2b8d9",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "307959401032278625829",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x0fa9a119941aa3156af9015353f045165b4ff860",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "750000006517712501842489",
+    "currentRewardEpochVotePower": "750000006517712501842489",
+    "balance": "664374221945500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "85292345602595786385",
+    "totalEpochReward": "426461728012978931929"
+  },
+  {
+    "address": "0x12331ec8f7f094b67d4456491ba465ba3433e963",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x123458c3db9e403e4ce9861ca9efd31129eecec0",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "7159128124667500000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x14af1ecc4198a7437a9c24240063a63b05ddd848",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "2000000000000000000000",
+    "currentRewardEpochVotePower": "2000000000000000000000",
+    "balance": "6932587448041275593",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "SparkiFi",
+    "description": "The high fidelity, low fee, independent FTSO provider.",
+    "url": "https://www.sparkifi.xyz",
+    "address": "0x153ad30381b11dce62f349c97a54c2a58956b992",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x153aD30381b11DCE62f349c97a54c2a58956B992.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "150951712469400000000000",
+    "currentRewardEpochVotePower": "147685211644900000000000",
+    "balance": "2389446272027520823511",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x15942e7de003424a3e11c213cd05e4fe9b8a9d7a",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "85000000000000000000000",
+    "currentRewardEpochVotePower": "85000000000000000000000",
+    "balance": "197244079612500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x17faba2995351176f648219a5a86921f9ed51a31",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "4822155874500000000000",
+    "currentRewardEpochVotePower": "4822155874500000000000",
+    "balance": "132921618103000657603",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x19a33cad2d311830550b41165d5fabf578347f3a",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "350000000000000000000",
+    "currentRewardEpochVotePower": "350000000000000000000",
+    "balance": "558339225000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x233ff54e220390c5b10a98ca72ffe1f482f0afbb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "342634097455310063000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x24d54685481ce73f2294098b56691862101d4e52",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x253894ae41984587baf067bee3035a864147e366",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x2580b76dfcf185fe14c1c63c0ea489bbd063018d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "19900000046594584257594",
+    "currentRewardEpochVotePower": "19900000046594584257594",
+    "balance": "189239718800000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.136.229.161/32",
+    "name": "Gangnam Signals",
+    "contact_person": "Dae Park",
+    "email": "gangnamsignals@gmx.net",
+    "url": "",
+    "country": "",
+    "address": "0x27cc4ca20c935bc8ab48713bbf6a1d550ea97e5d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "82697801518641406491",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x295b5b9425a48ea0a34bdda5a31e547ad9a9c5e0",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "56447487850184726410",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.86.116.11",
+    "name": "ThinkJust",
+    "contact_person": "Greg",
+    "email": "greggurevich@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0x2b1b6fc1a9d73494a05e28607a190d59952e03d8",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "266090898518112088064",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x2be329dc3d172599103bbf2cb28b41485c9d0f2e",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "527105249290966489492",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x2edfbb67df4c9a144ad26d2065b75196cebb4352",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x36a8f3352c3537495f82e0e19926e34a22a01dcb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x37e98712cdbf49497ab80c06208a35ad396a4680",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x382881466efe10aadb07b431ba748fba050a0332",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x3a41a4b9eddd547fb61892f29c331c2ab68f7c71",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "191179704675000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Maple",
+    "description": "Flare / Songbird Validator and Data Provider.",
+    "url": "https://maple-coin.net",
+    "address": "0x3ca9aa64a040644c00302b2287447bc97597b1dd",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x3cA9aA64A040644c00302b2287447bC97597B1dd.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "1496581349669351538",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x3ddd4a16b549280f67314f0e66b96b3dbf16ddcb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "127822257066272500000",
+    "currentRewardEpochVotePower": "127822257066272500000",
+    "balance": "14150464655688341893",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x3e8d2026e4618f6794483032b5adfe527f3509d3",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "2999999999999999800",
+    "currentRewardEpochVotePower": "2999999999999999800",
+    "balance": "4990919817988565836",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x3eaa55c13df90d8b9a505e8a1cc1e626cf6a5b08",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x40a6226a2abdc5506c75c04a331db08c35831e93",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "20239047000000000000",
+    "currentRewardEpochVotePower": "20239047000000000000",
+    "balance": "1069296431594346582758",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x42f8e2ff0d32aef22abcebf7724ac1d466b1a81f",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x441acdbcc73447daf4bf4271842ca0b09b3aa066",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "12372620105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "35.232.55.10/32",
+    "name": "Bull FTSO",
+    "contact_person": "Quentin Depieu",
+    "email": "jj@bullftso.com",
+    "url": "",
+    "country": "",
+    "address": "0x44fd0e5c3aacd66d83e1518f1c1b79dc379d87ac",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "460281253047055630281",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x462a18a1c8aae880be077e71b1cc208d32c31694",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "5638509428106418916",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSOnly",
+    "description": "The Only FTSO you need. The Only Signals you want. Your tokens stay safe in your wallet, Only your voice comes out.",
+    "url": "https://www.ftsonly.com",
+    "address": "0x4838cde6ef442d450b0b897cfdaf3b135f69d151",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4838CdE6EF442d450b0B897cfdAf3b135F69d151.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "555020041763042889795",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x4957001ae4c536eb2feb5468b3489ffbd41ae514",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "6099000000000000000000",
+    "currentRewardEpochVotePower": "6099000000000000000000",
+    "balance": "295160190384500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Team USA",
+    "description": "Welcome to Team USA. Our missions: Bring more decentralization to Flare Network. Cut the middle men. Delegate directly to us and don’t let your exchange get a cut of your rewards",
+    "url": "https://teamusa-ftso.com",
+    "address": "0x4ae5157ddcc7ae646406ee3b677b19501e3dfb23",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4aE5157DdCc7Ae646406Ee3B677b19501E3DFb23.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "2258511625088841180089",
+    "currentRewardEpochVotePower": "6633795262385007311332",
+    "balance": "588555290583686864156",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Bitrue",
+    "description": "Bitrue exchange",
+    "url": "https://www.bitrue.com",
+    "address": "0x4c97f55d2ed9c84ecc4db836d5fc4f191dea30ae",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4c97f55d2Ed9C84ECc4Db836d5Fc4F191deA30aE.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "4171579669511636151535712",
+    "currentRewardEpochVotePower": "4037190816946034873963742",
+    "balance": "373114833725000000000",
+    "fee": {
+      "fee": "0",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Origami",
+    "description": "Bringing more decentralization to the Flare and Songbird networks & more rewards to your pocket",
+    "url": "https://www.origamiftso.com",
+    "address": "0x4cfae1745980fe3bb3731e8542efdce5004338a4",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4cfaE1745980Fe3Bb3731E8542EFdce5004338a4.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "269780553365112653805",
+    "currentRewardEpochVotePower": "269780553365112653805",
+    "balance": "787078546500000434074",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x4dcd94b32c008877945ab79980fc5f3ff0ead067",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "97102817650000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Oracle of Delphi",
+    "description": "Reach Further with the Oracle of Delphi. Join us for unparalleled access to expertise, opportunity, and each other.",
+    "url": "https://oracledelphi.one",
+    "address": "0x4fe889f450eca4decd8a65b6b6ec5b7db8eab12e",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x4fE889F450EcA4decd8a65B6B6eC5b7Db8EaB12E.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "25364917719355515568214",
+    "currentRewardEpochVotePower": "25364952826555515568214",
+    "balance": "200765794733239480320",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x51ae845e20a8b55d954dd321c05dbca81b97a0e3",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "37070000000000000000000",
+    "currentRewardEpochVotePower": "37070000000000000000000",
+    "balance": "122278327200000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.91.243.56/32",
+    "name": "Enea_FTSO",
+    "contact_person": "Mattia Comis",
+    "email": "eneaftso@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0x52a4ac289e8af869cc47704736b7130a07e586ce",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "1050195732250800429100",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO Canada",
+    "description": "Start Delegating - Safe & Secure",
+    "url": "https://ftsocanada.com",
+    "address": "0x53987f2c36a8d13d40b5f63f2a2ce3110ace41d9",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x53987F2c36A8D13D40B5f63f2A2ce3110ace41d9.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "18444968591929933030498",
+    "currentRewardEpochVotePower": "18638188320451057512013",
+    "balance": "1737720434660422",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x57981dc5f7b3d004de5b912acb191ce64c1dd99c",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "587251813375000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x59209585d87f5400209e93b18af513fa2f6cdea9",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x6123bc83abf5bcf3b1f3a10beac6dddd26f0deba",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Interoracle",
+    "description": "An interchain oracle built by whirledlabs. Price ranked by liquidity.",
+    "url": "https://www.interoracle.io",
+    "address": "0x62d6116d6a139f2d402e8d8e30baaf5790542801",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x62d6116d6A139F2D402e8d8E30BAaF5790542801.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "88658355850597421665982",
+    "currentRewardEpochVotePower": "88729291300762636861801",
+    "balance": "273956444083394357259",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x633a6233b469cf41edd3a7b25223b9263a629add",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "3977022625000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x651ccebfa2c5aa1e6d9c6180d91079f120314080",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "608000186378337030376",
+    "currentRewardEpochVotePower": "608000186378337030376",
+    "balance": "4167270958775197218024",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "424460892496307085",
+    "totalEpochReward": "424460892496307085"
+  },
+  {
+    "IPs": "35.184.124.86/32",
+    "name": "See Oracle",
+    "contact_person": "Volker Messer",
+    "email": "see2021@web.de",
+    "url": "",
+    "country": "",
+    "address": "0x6692faef30025012162011a3d19c657145314f57",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "10267054068781127480",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.90.55.113/32",
+    "name": "Top Signals",
+    "contact_person": "Jaoa Rodriguez",
+    "email": "topsignals11@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0x6716234e92afb1b11c1261106d217c140b09d1ac",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "27575867907274897",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x6c1f246b61c899647520485a942f423f0d9e3228",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Küng",
+    "description": "Qualität Signals. For your beloved Flare and Songbird Networks",
+    "url": "https://kungftso.com",
+    "address": "0x6c6114a863bd229d3cc1e80f3827be7e87ef144d",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x6c6114a863Bd229D3cC1e80F3827be7E87EF144d.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "496338366824382994947",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Mayanodes",
+    "description": "Mayanodes FTSO Americas",
+    "url": "https://www.mayanodes.com",
+    "address": "0x6d457fba88729c683015a308232b805c857e0eae",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x6D457FbA88729c683015a308232b805C857e0EAe.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "9030406132000000000000",
+    "currentRewardEpochVotePower": "9030406132000000000000",
+    "balance": "766685257258393475913",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x6d933fc47edcbb0f9f4b5469d468dca1c3cb9440",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "1951866821482262001",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Nomikai FTSO",
+    "description": "Nomikai.network is a reliable and responsive FTSO signal provider for the Songbird and Flare Networks.",
+    "url": "https://nomikai.network",
+    "address": "0x6db5149c022d17f0ec1dd18e01ddb890509e08f3",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x6dB5149c022D17f0ec1dd18e01ddb890509E08F3.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO.IT",
+    "description": "Reliable and efficient data provider for Songbird canary network.",
+    "url": "https://ftso.it",
+    "address": "0x6ff5947ef89754682ad765b79c11f33452756d0b",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x6fF5947eF89754682aD765b79C11f33452756D0B.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "273722810881783380692752553",
+    "currentRewardEpochVotePower": "294337455069304140709866759",
+    "balance": "9262587391661849751",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Moon FTSO",
+    "description": "Moon FTSO is a Signal Provider based on the Moon",
+    "url": "https://moonftso.com",
+    "address": "0x7032a022ee8c42b53e89106eb5e2eeb04d1f3271",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x7032A022EE8C42b53e89106eb5e2EEb04d1f3271.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "2072500000000000000000",
+    "currentRewardEpochVotePower": "2072500000000000000000",
+    "balance": "2516777367616662808",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x72af2906c0ccb6b3c4977eb8d9f97a39f08aebae",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x74c33045718b3b0df012a738cbf1bb70bd2d4d9c",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x74d8c54a1011b44d6a12e81a456d0be9fbf2713c",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "18426860111740575297",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x74e226128ffee1f531789ddfce7be2b214059782",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Lehman Sisters",
+    "description": "You don’t have to send us your FLR or SGB Tokens. You don’t have to worry if we go bankrupt or not. We are just a better decentralized trustless version of our brothers’ business and we will definitely make you happy",
+    "url": "https://lehmansisters.org",
+    "address": "0x7606d86daec7cd79e4c557d0fbdc77d41376f3bf",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x7606D86dAEC7Cd79E4c557D0fBDc77d41376f3bf.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "650990000000000000000",
+    "currentRewardEpochVotePower": "650990000000000000000",
+    "balance": "635128181633235061037",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x767e6ec5bb8d44766320e31c7ad1d01e6572c3d4",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x79022463a5757d543bce97bc1f0a8ee681db4e16",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Infinity",
+    "description": "WE OFFER YOU: Security, Reliability, Transparency",
+    "url": "https://infinityftso.com",
+    "address": "0x792bb161c6eae681ba2f223db1a071e4cf4b4201",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x792Bb161C6eAE681ba2F223db1a071e4cf4B4201.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "9032643206034658410683",
+    "currentRewardEpochVotePower": "9032643206034658410683",
+    "balance": "414021672601514422490",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x79526967d531433bc3e0fcb00df446ae8f3ca62d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "111665796405038178933",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x7a0a944c35e14687d2ed0c525295e54b65856d82",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "1247436958694290782158",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "BeamFTSO",
+    "description": "Beaming high-fidelity FTSO signals to the Flare ecosystem.",
+    "url": "https://beamftso.com",
+    "address": "0x8888888830a0fddaaa09ccd891ff5d35fb45d2a6",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x8888888830A0fddAaa09CCD891fF5D35fb45D2A6.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "4850101529628312910519",
+    "currentRewardEpochVotePower": "4794922925628312910519",
+    "balance": "264817606848539537408",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x8888888888315960eeea1ddabde4d2cbc62cdec3",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x888888888880affc5c29184b5e7f09732880c1b6",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x888888888888a6963c4ba6c76fa6936567cf803e",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x888888888e8e0bf7227eafabf9f5843124c92f5a",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x8929037f6a948c58c2d04f68e469747a7893f765",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "999999999999969001",
+    "currentRewardEpochVotePower": "999999999999969001",
+    "balance": "22053584903305656750",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x8980c410f80828a852b7927f40f7b93b797bde86",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x8d2f59b49e4fe498e5ef7b0924a3e8b9f875305f",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "86000000000000000000000",
+    "currentRewardEpochVotePower": "86000000000000000000000",
+    "balance": "1065730975776500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "35.204.230.92/32",
+    "name": "Cacao Labs",
+    "contact_person": "Michael Ouattara",
+    "email": "cacaolabs@yahoo.com",
+    "url": "",
+    "country": "",
+    "address": "0x8d9143d995adb68f8c866902fe64bbba11100ad9",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "243463224950003731694",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x915ea5a0e8258716bf252b97bbf3da58ba865e68",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x92ce19eca516bd4ccd9ea42039a8a72d9601e5bf",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Best FTSO",
+    "description": "Our goal is to offer users the most value for their delegation. Come check out our NFT club and earn more than just SGB rewards!",
+    "url": "https://bestftso.xyz",
+    "address": "0x939789ed3d07a80da886a3e3017d665cbb5591dc",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x939789ed3D07A80da886A3E3017d665cBb5591dC.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "45128070444098144877746861",
+    "currentRewardEpochVotePower": "46546675685045630861683062",
+    "balance": "116124694336017795450",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x93c9063987536ac1cac0f3e7153893ac96346528",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x957bc81be356c6ba5a38ccdacb1db1dbe2be752b",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "1093220700000000062",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "FTSO Tech",
+    "description": "Your most reliable Flare Time Series Oracle",
+    "url": "https://ftsotech.xyz",
+    "address": "0x959665cc4dd38b5e83eed6603bb8b9da884e930f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0x959665cc4Dd38b5e83EeD6603BB8B9da884E930f.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "20000340000000000000000000",
+    "currentRewardEpochVotePower": "20000340000000000000000000",
+    "balance": "66898961897356233484",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x999994131c42df62eb16433a27e8d113b4f195b5",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "3000000",
+    "currentRewardEpochVotePower": "3000000",
+    "balance": "37561640493217206520",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x99f69c9d1e99dedc7f54b74f6c8bb82ef6657705",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0x9e26fbfee1f4dc79f491e752eda0ceea23a1a834",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa07dd945efe93158e1e241faa6dc8cebd412bfe4",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa0f3ef18412962a161489a8eda7df2ab5e34fabb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa16e1dcc36509f685d608594b1ed5d7d0891f781",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "680897058043260819745",
+    "currentRewardEpochVotePower": "680897058043260819745",
+    "balance": "587098557241325390",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa1a7988e32b25aa5bf0f70c96d71d887bebc78a6",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.159.94.155/32 147.182.252.55",
+    "name": "Ninja Oracle",
+    "contact_person": "Thomas Jacobs",
+    "email": "ninjaoracle.ftso@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0xa3fd735fe50f47b047561fdd42ddcc4cefb03e6e",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "68600000000000000000",
+    "currentRewardEpochVotePower": "68600000000000000000",
+    "balance": "2549546904511253",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa5e47b337e8db9812002d679aa0dbe9da3331259",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa800f0be55e7b694e71641e717b3d4e6f5076e53",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "21345804959075294000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xa940cf0fe742eeab1fd03091f5d52cc9ac60e8fb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xad4cbb6263a1d28d7c25f7004174ea69f9c749af",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "55000000000000000000",
+    "currentRewardEpochVotePower": "55000000000000000000",
+    "balance": "15083662900000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Ad. Owl",
+    "description": "Ad. Owl is a flexible and adaptable data provider for both Songbird and Flare network",
+    "url": "https://owl-ftso.com",
+    "address": "0xad6f97449d5d7c6c191b58792137e6204bd0538f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xad6f97449d5D7C6c191B58792137E6204bD0538F.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "19244145220304879462165",
+    "currentRewardEpochVotePower": "19244145220304879462165",
+    "balance": "2432309989003861134",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xadafd4c7ba71f6b06c2bbaf108b93058cb7117a0",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.91.31.8/32",
+    "name": "Hercules",
+    "contact_person": "Thanasis Hondralis",
+    "email": "mt.hercules@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0xb30ec20cfc5d93acc403ec54889368c5f1927fde",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "97020000000000000000",
+    "currentRewardEpochVotePower": "97020000000000000000",
+    "balance": "4479827025179978418",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xb4659af237b4d4b91d59bde7113f0685a47adc2a",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "227357602818924503629",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xb60ce41ab0939dc44b99220cc3c147607eee5e87",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "1740000000000000000000",
+    "currentRewardEpochVotePower": "1740000000000000000000",
+    "balance": "7954321921242467613224",
+    "fee": {
+      "fee": "1000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xb8de9a52e1dca1df3dec5baa919985d00d2739db",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "20593771721704449325187696",
+    "currentRewardEpochVotePower": "20590356721704449325187696",
+    "balance": "2883149759967500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "currentEpochReward": "2199700074338969785390",
+    "totalEpochReward": "10998500371694848926950"
+  },
+  {
+    "address": "0xba7eab63b6d0a3d4260ddb836423cde235827b7f",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xbab703f62e153ec771327ad568bf35ebda84d95d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.125.37.13/32",
+    "name": "Chili FTSO",
+    "contact_person": "Arturo Vazquez Guzman",
+    "email": "chiliftso@gmail.com",
+    "url": "",
+    "country": "",
+    "address": "0xbbfeb874d5846b09f6e16ba701f676cc28c78b75",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "5395500000000000000000",
+    "currentRewardEpochVotePower": "5395500000000000000000",
+    "balance": "39662227994976204489",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.91.155.238/32",
+    "name": "Montevideo Rewards",
+    "contact_person": "Luca Ratzenberger",
+    "email": "Montevideorewards@outlook.com",
+    "url": "",
+    "country": "",
+    "address": "0xbcd62ea462f9fc54d5e67eb4a3c3f5e7d951a71b",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "785334407976452900709",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xbde6d1078ba0ab9fb71b0912b4372c94cacc583f",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "17200008393777341944",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xbe94e7ef5f9ae972ec055a6eac5ff89e8392748d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xc018b27d58acb91964cd66355c0d791d76422740",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "100000000000000000000",
+    "currentRewardEpochVotePower": "100000000000000000000",
+    "balance": "10808892518712523401",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Thunder",
+    "description": "Your Striking data provider",
+    "url": "https://thunderoracles.com",
+    "address": "0xc045dcc2c5ee8726963abeab8fcfe2d194ce5c36",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xC045dcC2C5eE8726963abEAb8fCfE2d194CE5c36.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "9491505320000000000000",
+    "currentRewardEpochVotePower": "15261505320000000000000",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Shark Oracle",
+    "description": "Shark Oracle has a vision... To supply shark signals to the Flare ecosystem. Be a part of the revolution.",
+    "url": "https://sharkoracle.com",
+    "address": "0xc0ffacc88f782785ecc5bc9fe3e390f52ce55760",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xC0FFaCc88F782785Ecc5BC9Fe3E390F52cE55760.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "1322466073000000000000",
+    "currentRewardEpochVotePower": "1322466073000000000000",
+    "balance": "607469950294345504386",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xc783df8a850f42e7f7e57013759c285caa701eb6",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "NewWave",
+    "description": "NewWave is a SongBird Network signal provider. We are proud to be a part of Flare Network.",
+    "url": "https://newwaveftso.com",
+    "address": "0xc84d776ddf92da03c37d77bc65519af696cdfe8b",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xC84d776Ddf92dA03C37d77BC65519AF696cDfe8b.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "711941764198000000000000",
+    "currentRewardEpochVotePower": "458251294198000000000000",
+    "balance": "1099892947580477062064",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xcba89b9e33b8d22da2177ce87eb0c706c8ed22f3",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "200000000000000000000",
+    "currentRewardEpochVotePower": "200000000000000000000",
+    "balance": "672841378250000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xcd3f36877ee4e44668a985a6e75dbf39d8d079c5",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xcd92362d1d9256b86b1b374475b923d26995ab29",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "9999999856001",
+    "currentRewardEpochVotePower": "9999999856001",
+    "balance": "202741853265000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd06225a70d865c7a737a0beec744b0c420e9bfdb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "226597140000000000000000",
+    "currentRewardEpochVotePower": "226597140000000000000000",
+    "balance": "176703599911500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd36fd629ddbabec1a0443deefe0072e5a89944d5",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "2000000000000000000",
+    "currentRewardEpochVotePower": "2000000000000000000",
+    "balance": "372059955354690367544",
+    "fee": {
+      "fee": "0",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd3dfe0e8b21a3c101abd84e705f2fa696377f43a",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "994872804917500000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd41230dc7795d9193056b3242137650e6b0cb8ef",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "292552452925000000000",
+    "fee": {
+      "fee": "10000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Avax",
+    "description": "We simplify Flare time series oracle provision",
+    "url": "https://avaxftso.com",
+    "address": "0xd656c094c1d43dc5dcd7f5c44199ce66c0f148bf",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xd656c094C1D43Dc5DCd7F5C44199cE66c0f148bf.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "2427929310000000000000",
+    "currentRewardEpochVotePower": "2427929310000000000000",
+    "balance": "922789374088637735727",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd7d31d0dff5ff56901d45b797c077046bd25c7b5",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "4000000000000000000",
+    "currentRewardEpochVotePower": "4000000000000000000",
+    "balance": "1652947687372869000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd7ecdb57dfdfc092a06847e491f18d98695a8110",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "41201752555000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd8f1225c7e49d5ae66399c0803aa99cf55d2e4de",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xd966466dfe1419d3de0be8bce0610e62ce1ef347",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xdb17aa86f8815be2884629fd956d11423a31ecd2",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xdb3ad5773f7ffcb72aeeb6e9821b7e55ef4e1134",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Optakt",
+    "description": "Optakt is a tactical engineering team working on projects which reshape the landscape of blockchain technology.",
+    "url": "https://www.optakt.io",
+    "address": "0xddef7e54a9f72d9fc0a281b42f15a22b30681da5",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xDDEF7e54a9f72D9Fc0a281b42F15A22B30681da5.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "226708337351486530182600",
+    "currentRewardEpochVotePower": "226708337351486530182600",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "1000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xde3e6b09440e61657fdc69520376d593cda886f5",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xe0b55ffe1a4004e2348a53722cb8b78bb9511bdb",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "sigma7",
+    "description": "sigma7 - Applied Financial Analytics",
+    "url": "https://ftso.sigma7.io",
+    "address": "0xe11984cac4518ebc18c428b86884b5b1cc1f7be0",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xe11984cAc4518eBC18c428b86884b5b1cc1F7be0.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "20002180123132000000000000",
+    "currentRewardEpochVotePower": "20002180123132000000000000",
+    "balance": "4121440101125863488",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xe40a33e470ab6f2681156ab5e43da033ba724761",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "39268476670000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xe4124e02610a881e3b8413294a4f6d3718028c6d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "225000000000000000000",
+    "currentRewardEpochVotePower": "225000000000000000000",
+    "balance": "6333525810625824023",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Big Baby FTSO",
+    "description": "Big Baby FTSO - Feed the Big Baby!",
+    "url": "https://bbftso.com",
+    "address": "0xe60784d1c661a8d8ee19b442999bb71279f0a91f",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xe60784D1c661a8D8eE19b442999bB71279F0A91f.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "21775130241500000000000",
+    "currentRewardEpochVotePower": "21768694552000000000000",
+    "balance": "2728837177926927241472",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Flare Kollektiv",
+    "description": "Flare Kollektiv is an independent infrastructure provider on Flare and Songbird, providing reliable delegation services.",
+    "url": "https://www.flarekollektiv.xyz",
+    "address": "0xe76bc13136338f27363425fcbcb36967b0540176",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xE76Bc13136338f27363425FcbCB36967B0540176.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "13723936763558697485000",
+    "currentRewardEpochVotePower": "14578135263558697485000",
+    "balance": "237756919774663487488",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xe883865fac51aff7013b2bea32598799124e43ff",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "96768818175000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Nerdherd.ai",
+    "description": "NerdHerd.ai is a team of professional data scientists. We utilize AI to maximize accuracy and rewards in all market conditions.",
+    "url": "https://nerdherd.ai",
+    "address": "0xe899f8cca524e9d7681548709e7a87c41adb0c53",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xE899f8Cca524E9d7681548709e7A87c41adB0c53.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "75336078115574553165210",
+    "currentRewardEpochVotePower": "75956028115574553165210",
+    "balance": "47739820410469906181",
+    "fee": {
+      "fee": "1500",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "130.211.193.173/32 35.224.10.255 46.101.236.83",
+    "name": "BlackSwan Signals",
+    "contact_person": "Sebastian Tscherner",
+    "email": "black@blackswan-signals.com",
+    "url": "",
+    "country": "",
+    "address": "0xf51415629673c4b377623defe6602e5d42802c2d",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "418899651483383914177",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.90.1.147/32",
+    "name": "Global Oracles",
+    "contact_person": "Antoine Berger",
+    "email": "global@globaloracles.org",
+    "url": "",
+    "country": "",
+    "address": "0xf70d53158c3878112c79750e45f970f6c25360a1",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "709547291734502541963",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "IPs": "34.141.251.250",
+    "name": "Eagle Nodes",
+    "contact_person": "Nur",
+    "email": "Eaglenodes86@yahoo.com",
+    "url": "",
+    "country": "",
+    "address": "0xf81ed9b44d14a177ba0e95f5767bc49eb352c86a",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "25856251494344636532",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "chainId": 19,
+    "name": "Dank FTSO",
+    "description": "We only source best prices from best exchanges.",
+    "url": "https://dankftso.com",
+    "address": "0xf8b92be7ffb021b074f8621765d72da4c8862749",
+    "logoURI": "https://raw.githubusercontent.com/TowoLabs/ftso-signal-providers/master/assets/0xF8b92bE7ffB021B074F8621765D72dA4C8862749.png",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "6155396611000000524288",
+    "currentRewardEpochVotePower": "6147795151500000524288",
+    "balance": "105000000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xfb024ac344c474e0476cca84316af9c8ba4d32e7",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "49705085925000000000",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  },
+  {
+    "address": "0xfc27a2aec00111384d5bca26772411196bb18dd8",
+    "availability": 0,
+    "successRate": 0,
+    "currentVotePower": "0",
+    "currentRewardEpochVotePower": "0",
+    "balance": "0",
+    "fee": {
+      "fee": "2000",
+      "scheduledFee": null
+    },
+    "totalEpochReward": "0"
+  }
+]
