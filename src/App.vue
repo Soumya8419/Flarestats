@@ -137,7 +137,7 @@
 </template>
 <script>
 // import dp from '../dp.json'
-import axios from "axios";
+//import axios from "axios";
 
 import {
   MDBTabs,
