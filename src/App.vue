@@ -68,6 +68,11 @@
           </thead>
           <tbody>
             <tr v-for="(person, index) in personsfl" :key="index">
+                          <td>
+                <MDBBadge badge="success" pill class="d-inline">{{
+                  index
+                }}</MDBBadge>
+              </td>
               <td>
                 <div class="d-flex align-items-center">
                   <img
