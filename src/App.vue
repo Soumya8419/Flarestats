@@ -62,7 +62,7 @@
             <tr>
               <th>Name</th>
               <th>SuccessRate</th>
-              <th>Avialability,Voting Power,Fee</th>
+              <th>Fee</th>
             </tr>
           </thead>
           <tbody>
@@ -100,7 +100,6 @@
   </MDBTabs>
   <!--  
  
-  <h1><b>Songbird</b></h1>
  <MDBTable class="align-middle mb-0 bg-white">
    <thead class="bg-light">
      <tr>
@@ -111,6 +110,11 @@
    </thead>
    <tbody>
      <tr v-for='(person, index) in persons' :key="index">   
+        <td>
+                <MDBBadge badge="success" pill class="d-inline">{{
+                  index
+                }}</MDBBadge>
+              </td>
       <td>
         <div class="d-flex align-items-center">
            <img  :src= "person.logoURI"   alt="" style="width: 45px; height: 45px"
