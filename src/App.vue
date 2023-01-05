@@ -60,7 +60,8 @@
         <MDBTable class="align-middle mb-0 bg-white">
           <thead class="bg-light">
             <tr>
-              <th>Name</th>
+              <th>Rank</th>
+             <th>Name</th>
               <th>SuccessRate</th>
               <th>Fee</th>
             </tr>
