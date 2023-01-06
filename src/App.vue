@@ -49,7 +49,7 @@
               </td>
               <td>
                 <div class="ms-3">
-                  <p class="text-muted mb-0">{{ person.fee.fee }}</p>
+                  <p class="text-muted mb-0">{{ person.fee }}</p>
                 </div>
               </td>
             </tr>
@@ -95,7 +95,7 @@
               </td>
               <td>
                 <div class="ms-3">
-                  <p class="text-muted mb-0">{{ person.fee.fee }}</p> 
+                  <p class="text-muted mb-0">{{ person.fee }}</p> 
                 </div>
               </td>
             </tr>
