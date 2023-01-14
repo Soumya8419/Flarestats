@@ -44,7 +44,7 @@
               </td>
               <td>
                 <MDBBadge badge="success" pill class="d-inline">{{
-                  person.successRate
+                  person.rewardRate
                 }}</MDBBadge>
               </td>
               <td>
@@ -90,7 +90,7 @@
               </td>
               <td>
                                 <MDBBadge badge="success" pill class="d-inline">{{
-                  person.sucessRate
+                  person.rewardRate
                 }}</MDBBadge>
               </td>
               <td>
