@@ -2,9 +2,9 @@
   <MDBTabs v-model="activeTabId1" >
     <!-- Tabs navs -->
     <MDBTabNav tabsClasses="mb-3">
-      <MDBTabItem tabId="ex1-1" href="ex1-1"><h4>Songbird</h4></MDBTabItem>
-      <MDBTabItem tabId="ex1-2" href="ex1-2"><h4>Flare</h4></MDBTabItem>
-      <MDBTabItem tabId="ex1-3" href="ex1-2"><h4>About Us</h4></MDBTabItem>
+      <MDBTabItem tabId="ex1-1" href="ex1-1">Songbird</MDBTabItem>
+      <MDBTabItem tabId="ex1-2" href="ex1-2">Flare</MDBTabItem>
+      <MDBTabItem tabId="ex1-3" href="ex1-2">About Us</MDBTabItem>
     </MDBTabNav>
     <!-- Tabs navs -->
     <!-- Tabs content -->
