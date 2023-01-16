@@ -30,7 +30,7 @@
                 }}</MDBBadge>
               </td>
               <td>
-                <div class="d-flex align-items-leftr">
+                <div class="d-flex align-items-left">
                   <img
                     :src="person.logoURI"
                     alt=""
