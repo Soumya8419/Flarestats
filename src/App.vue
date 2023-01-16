@@ -34,7 +34,7 @@
                   <img
                     :src="person.logoURI"
                     alt=""
-                    style="width: 20px; height: 20px"
+                    style="width: 10px; height: 10px"
                     class="rounded-circle"
                   />
                 
@@ -43,9 +43,7 @@
                 </div>
               </td>
               <td>
-                <MDBBadge badge="primary" pill class="d-inline">{{
                   person.rewardRate
-                }}</MDBBadge>
               </td>
               <td>
                 <div class="ms-3">
