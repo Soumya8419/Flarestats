@@ -10,9 +10,9 @@
     <!-- Tabs content -->
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
-        <h8> Disclaimer : to be finalised. All data refreshed hourly. </h8>
-        <MDBTable class="align-middle mb-0 bg-yellow">
-          <thead class="bg-light">
+      Disclaimer :  All data refreshed hourly. 
+        <MDBTable class="align-middle mb-0 bg-white">
+          <thead class="bg-dark">
             <tr>
               <th>Rank</th>
               <th>Name</th>
@@ -57,7 +57,6 @@
         </MDBTable>
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
-        <h1><b>Songbird</b></h1>
         <MDBTable class="align-middle mb-0 bg-white">
           <thead class="bg-light">
             <tr>
@@ -79,13 +78,10 @@
                   <img
                     :src="person.logoURI"
                     alt=""
-                    style="width: 45px; height: 45px"
+                    style="width: 20px; height: 20px"
                     class="rounded-circle"
                   />
-                  <div class="ms-3">
                     <p class="fw-bold mb-1">{{ person.name }}</p>
-                    <p class="text-muted mb-0">{{ person.address }}</p>
-                  </div>
                 </div>
               </td>
               <td>
