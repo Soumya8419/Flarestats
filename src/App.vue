@@ -1,5 +1,5 @@
 <template>
-  <MDBTabs v-model="activeTabId1">
+  <MDBTabs v-model="activeTabId1" vertical>
     <!-- Tabs navs -->
     <MDBTabNav tabsClasses="mb-3">
       <MDBTabItem tabId="ex1-1" href="ex1-1"><h4>Songbird</h4></MDBTabItem>
