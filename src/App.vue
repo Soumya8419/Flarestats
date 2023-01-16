@@ -101,7 +101,7 @@
        <MDBTabPane tabId="ex1-3">
         <p> 
 
-<p><span data-contrast="auto">INFO</span><span data-ccp-props="{}">&nbsp;</span></p>
+<p class="fs-6"><span data-contrast="auto">INFO</span><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-contrast="auto">This app provides FTSO's listings </span><strong><span data-contrast="auto">sorted per</span></strong> <strong><span data-contrast="auto">best &lsquo;Reward Rate&rsquo;</span></strong><span data-contrast="auto">.</span><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-ccp-props="{}">&nbsp;</span></p>
