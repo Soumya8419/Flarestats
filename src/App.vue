@@ -78,7 +78,7 @@
                   <img
                     :src="person.logoURI"
                     alt=""
-                    style="width: 20px; height: 20px"
+                    style="width: 10px; height: 10px"
                     class="rounded-circle"
                   />
                     <p class="fw-bold mb-1">{{ person.name }}</p>
