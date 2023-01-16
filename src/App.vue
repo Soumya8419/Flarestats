@@ -62,7 +62,7 @@
             <tr>
               <th>Rank</th>
              <th>Name</th>
-              <th>SuccessRate</th>
+              <th>Reward Rate</th>
               <th>Fee(%)</th>
             </tr>
           </thead>
