@@ -14,10 +14,10 @@
         <MDBTable class="align-left mb-0 bg-white">
           <thead class="thead-dark">
             <tr>
-              <th>Rank</th>
-              <th>Name</th>
-              <th>Reward Rate</th>
-              <th>Fee(%)</th>
+              <th style="width: 16.66%">Rank</th>
+              <th style="width: 25%">Name</th>
+              <th style="width: 50%">Reward Rate</th>
+              <th style="width: 8.33%">Fee(%)</th>
             </tr>
           </thead>
           <tbody>
