@@ -11,8 +11,8 @@
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
       Disclaimer :  All data refreshed hourly. 
-        <MDBTable class="align-middle mb-0 bg-white">
-          <thead class="bg-dark">
+        <MDBTable class="align-middle mb-0 bg-dark">
+          <thead class="thead-dark">
             <tr>
               <th>Rank</th>
               <th>Name</th>
@@ -58,7 +58,7 @@
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
         <MDBTable class="align-middle mb-0 bg-white">
-          <thead class="bg-light">
+          <thead class="thead-dark">
             <tr>
               <th>Rank</th>
              <th>Name</th>
