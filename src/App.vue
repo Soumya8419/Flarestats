@@ -43,7 +43,9 @@
                 </div>
               </td>
               <td>
+                <MDBBadge badge="success" pill class="d-inline">{{
                   person.rewardRate
+                     }}</MDBBadge>
               </td>
               <td>
                 <div class="ms-3">
