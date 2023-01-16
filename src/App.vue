@@ -11,7 +11,7 @@
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
         <h8> Disclaimer : to be finalised. All data refreshed hourly. </h8>
-        <MDBTable class="align-middle mb-0 bg-white">
+        <MDBTable class="align-middle mb-0 bg-black">
           <thead class="bg-light">
             <tr>
               <th>Rank</th>
@@ -37,9 +37,9 @@
                     style="width: 45px; height: 45px"
                     class="rounded-circle"
                   />
-                  <div class="ms-3">
+                
                     <p class="fw-bold mb-1">{{ person.name }}</p>
-                  </div>
+
                 </div>
               </td>
               <td>
