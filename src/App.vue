@@ -11,7 +11,7 @@
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
         <h8> Disclaimer : to be finalised. All data refreshed hourly. </h8>
-        <MDBTable class="align-middle mb-0 bg-black">
+        <MDBTable class="align-middle mb-0 bg-yellow">
           <thead class="bg-light">
             <tr>
               <th>Rank</th>
@@ -34,7 +34,7 @@
                   <img
                     :src="person.logoURI"
                     alt=""
-                    style="width: 45px; height: 45px"
+                    style="width: 20px; height: 20px"
                     class="rounded-circle"
                   />
                 
