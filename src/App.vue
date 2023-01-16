@@ -26,7 +26,7 @@
             <!-- <tr v-for="person in persons" :key="person.chainId"> -->
               <td>
                 <MDBBadge badge="success" pill class="d-inline">{{
-                  index
+                  index + 1
                 }}</MDBBadge>
               </td>
               <td>
