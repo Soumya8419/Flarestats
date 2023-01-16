@@ -71,7 +71,7 @@
             <tr v-for="(person, index) in personsfl" :key="index">
                           <td>
                 <MDBBadge badge="success" pill class="d-inline">{{
-                  index
+                  index + 1
                 }}</MDBBadge>
               </td>
               <td>
@@ -173,7 +173,7 @@
      <tr v-for='(person, index) in persons' :key="index">   
         <td>
                 <MDBBadge badge="success" pill class="d-inline">{{
-                  index
+                  index + 1
                 }}</MDBBadge>
               </td>
       <td>
