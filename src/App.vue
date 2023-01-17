@@ -11,7 +11,7 @@
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
       Sorted hourly by highest Reward Rate.
-        <MDBTable class="align-left mb-0 bg-white">
+        <MDBTable class="align-left mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
               <th style="width: 16.66%">Rank</th>
@@ -38,7 +38,7 @@
                     class="rounded-circle"
                   />
                 
-                    <p class="fw-bold mb-0">{{ person.name }}</p>
+                    <p class="fw-bold mb-3">{{ person.name }}</p>
 
                 </div>
               </td>
@@ -58,7 +58,7 @@
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
         Sorted hourly by highest Reward Rate.
-        <MDBTable class="align-middle mb-0 bg-white">
+        <MDBTable class="align-middle mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
               <th>Rank</th>
