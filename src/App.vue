@@ -10,7 +10,7 @@
     <!-- Tabs content -->
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
-      Disclaimer :  All data refreshed hourly. 
+      Sorted hourly by highest Reward Rate.
         <MDBTable class="align-left mb-0 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -38,7 +38,7 @@
                     class="rounded-circle"
                   />
                 
-                    <p class="fw-bold mb-1">{{ person.name }}</p>
+                    <p class="fw-bold mb-0">{{ person.name }}</p>
 
                 </div>
               </td>
@@ -57,6 +57,7 @@
         </MDBTable>
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
+        Sorted hourly by highest Reward Rate.
         <MDBTable class="align-middle mb-0 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -81,7 +82,7 @@
                     style="width: 20px; height: 20px"
                     class="rounded-circle"
                   />
-                    <p class="fw-bold mb-1">{{ person.name }}</p>
+                    <p class="fw-bold mb-0">{{ person.name }}</p>
                 </div>
               </td>
               <td>
@@ -100,7 +101,7 @@
         </MDBTabPane>
        <MDBTabPane tabId="ex1-3">
         <p> 
-
+<div class="container-sm">
 <p class="text-sm-start"> INFO </p>
 <p class="text-sm-start"> </p>
 <p class="text-sm-start"><span data-contrast="auto">SGB / FLR holders can delegate their tokens to their own choice of Data Providers (TSO&rsquo;s also named FTSO&rsquo;s). By delegating your vote, assets will stay in your </span><span data-contrast="auto"><span data-ccp-charstyle="hrcahc" data-ccp-charstyle-defn="{&quot;ObjectId&quot;:&quot;c68bee1c-d300-49ba-bd20-00e1ba2b6f0f|12&quot;,&quot;ClassId&quot;:1073872969,&quot;Properties&quot;:[469775450,&quot;hrcahc&quot;,201340122,&quot;1&quot;,134233614,&quot;true&quot;,469778129,&quot;hrcahc&quot;,335572020,&quot;1&quot;,469778324,&quot;Default Paragraph Font&quot;]}">possession</span></span><span data-contrast="auto">. The </span><a href="https://flareportal.com/"><span data-contrast="none"><span data-ccp-charstyle="Hyperlink">Flare Portal</span></span></a><span data-contrast="auto"> xApp provides key information for your delegation process, the FTSO's listing is sorted </span><strong><span data-contrast="auto">per best &lsquo;Reward Rate&rsquo;</span></strong><span data-contrast="auto"> for Songbird and Flare Network as most used indicator. Data is updated as per (in the xApp) indicated interval / last updated information.</span><span data-ccp-props="{}">&nbsp;</span></p>
@@ -148,7 +149,7 @@
 <p><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-ccp-props="{}">&nbsp;</span></p>
-        </p>
+        </p></div>
          </MDBTabPane>
     </MDBTabContent>
     <!-- Tabs content -->
