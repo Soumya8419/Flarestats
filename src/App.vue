@@ -38,7 +38,7 @@
                     class="rounded-circle"
                   />
                 
-                    <p class="fw-bold mb-3">{{ person.name }}</p>
+                    <p class="  mb-3">{{ person.name }}</p>
 
                 </div>
               </td>
@@ -82,7 +82,8 @@
                     style="width: 20px; height: 20px"
                     class="rounded-circle"
                   />
-                    <p class="fw-bold mb-0">{{ person.name }}</p>
+                    <p class="
+                    mb-0">{{ person.name }}</p>
                 </div>
               </td>
               <td>
@@ -176,7 +177,7 @@
            <img  :src= "person.logoURI"   alt="" style="width: 45px; height: 45px"
              class="rounded-circle" />
            <div class="ms-3">  
-             <p class="fw-bold mb-1">{{ person.name }}</p>
+             <p class="  mb-1">{{ person.name }}</p>
              <p class="text-muted mb-0">{{ person.address }}</p>
              </div>
          </div>  
