@@ -103,10 +103,10 @@
        <MDBTabPane tabId="ex1-3">
        <div class="container">
   <p class="text-sm-start"> This app provides FTSO's listed based on their ‘Reward Rate’.</p> 
-
+<p>
 <span data-contrast="auto">SGB / FLR holders can delegate their tokens to their own choice of Data Providers (TSO&rsquo;s also named FTSO&rsquo;s). By delegating your vote, your assets will stay in your possession</span>
 <span>The Flare Portal xApp provides key information to select on this delegation process</span>.
-<span>Data is updated as per (in the xApp) indicated interval / last updated information.</span> 
+<span>Data is updated as per (in the xApp) indicated interval / last updated information.</span> </p>
 <p><span data-contrast="auto">Reward Rate</span><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-contrast="auto">Ratio used to calculate how many tokens you will receive per 100 delegated </span><span data-contrast="auto"><span data-ccp-charstyle="hgkelc" data-ccp-charstyle-defn="{&quot;ObjectId&quot;:&quot;c68bee1c-d300-49ba-bd20-00e1ba2b6f0f|9&quot;,&quot;ClassId&quot;:1073872969,&quot;Properties&quot;:[469775450,&quot;hgkelc&quot;,201340122,&quot;1&quot;,134233614,&quot;true&quot;,469778129,&quot;hgkelc&quot;,335572020,&quot;1&quot;,469778324,&quot;Default Paragraph Font&quot;]}">$WSGB / $WFLR</span></span><span data-contrast="auto">.</span><span data-ccp-props="{}">&nbsp;</span></p>
 <p><span data-ccp-props="{}">&nbsp;</span></p>
