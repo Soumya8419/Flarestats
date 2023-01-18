@@ -10,7 +10,9 @@
     <!-- Tabs content -->
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
-      Sorted hourly by highest Reward Rate.
+        <tr v-for="(detailss, index) in details" :key="index">
+      Sorted hourly by highest Reward Rate. Epoch : {{details.epoch }} . Last refresh : {{ details.time }}
+         </tr>
         <MDBTable class="align-left mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -57,7 +59,7 @@
         </MDBTable>
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
-        Sorted hourly by highest Reward Rate.
+        Sorted hourly by highest Reward Rate. Epoch : 
         <MDBTable class="align-middle mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -233,6 +235,7 @@ export default defineComponent({
       //   //persons: dp ,
       personssb: [],
       personsfl: [],
+      details:[]
     };
   },
   // created: function () {
@@ -263,6 +266,11 @@ export default defineComponent({
       .then((data) => (this.personsfl = data))
       .catch((err) => console.log(err.message));
       console.log(this.persons)
+    fetch("https://flareportal.com/data/details.json",{ credentials: 'same-origin',})
+      .then((res) => res.json())
+      .then((data) => (this.details = data))
+      .catch((err) => console.log(err.message));
+      console.log(this.persons)    
   },  
 });
 </script>
