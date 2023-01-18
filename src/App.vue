@@ -10,7 +10,7 @@
     <!-- Tabs content -->
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
-         <p class="text-muted mb-0">  Sorted hourly by highest Reward Rate. Epoch : {{details.epoch }} . Last refresh : {{ details.time }}   </p>
+         <p class="text-muted mb-0">  Sorted hourly by highest Reward Rate.   </p>
               <MDBTable class="align-left mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -233,7 +233,7 @@ export default defineComponent({
       //   //persons: dp ,
       personssb: [],
       personsfl: [],
-      details:details
+      details:[]
     };
   },
   // created: function () {
