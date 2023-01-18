@@ -11,7 +11,11 @@
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
        <li v-for="(item, index) in details[0]" :key="index">
-       <p class="text-muted mb-0">  Sorted hourly by highest Reward Rate. Epoch :  {{ detailsitem }}   </p>
+       <div>
+    <ul>
+       <p class="text-muted mb-0">  Sorted hourly by highest Reward Rate. Epoch :  {{ details.item }}   </p>
+         </ul>
+  </div>
       </li>
       
               <MDBTable class="align-left mb-3 bg-white">
