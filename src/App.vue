@@ -13,7 +13,7 @@
        <li v-for="(item, index) in details" :key="index">
        <div>
     <ul>
-       <p class="text-muted mb-0">  Sorted hourly by highest Reward Rate. Epoch :  {{ details.item }}   </p>
+      Sorted hourly by highest Reward Rate. Epoch :  {{ details.item }} 
          </ul>
   </div>
       </li>
