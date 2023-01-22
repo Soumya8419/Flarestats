@@ -194,7 +194,7 @@
      </tr>
    </tbody>
  </MDBTable> -->
- <div style="max-width:480px;">
+ </div>
 </template>
 <script>
 // import dp from '../dp.json'
