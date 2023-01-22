@@ -11,7 +11,10 @@
     <!-- Tabs content -->
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
-      Sorted hourly by highest Reward Rate.    
+      Sorted hourly by highest Reward Rate. 
+ <div class="items-container">
+      <span v-for="item in detail" :key="index">Epoch :{{ item.epoch }},last refresh : {{ item.time }} </span>
+    </div>
               <MDBTable class="align-left mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -429,6 +432,9 @@ fieldset {
   border-style: none;
   border-color: rgba(255, 255, 255, 0);
   border-image: none;
+}
+.items-container {
+  display: flex;
 }
 </style>
 
