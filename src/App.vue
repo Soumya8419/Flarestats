@@ -1,4 +1,5 @@
 <template>
+<div style="max-width:480px;">
   <MDBTabs v-model="activeTabId1" >
     <!-- Tabs navs -->
     <MDBTabNav tabsClasses="mb-3">
@@ -193,6 +194,7 @@
      </tr>
    </tbody>
  </MDBTable> -->
+ <div style="max-width:480px;">
 </template>
 <script>
 // import dp from '../dp.json'
