@@ -37,7 +37,7 @@
                 }}</MDBBadge>
               </td>
               <td>
-                <div class="align-items-left">
+                <div class="align-items-center">
                   <img
                     :src="person.logoURI"
                     alt=""
@@ -84,7 +84,7 @@
                 }}</MDBBadge>
               </td>
               <td>
-                <div class="d-flex align-items-center">
+                <div class=" align-items-center">
                   <img
                     :src="person.logoURI"
                     alt=""
