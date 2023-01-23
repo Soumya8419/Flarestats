@@ -66,8 +66,9 @@
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
         Sorted hourly by highest Reward Rate.
+          <div class="items-container">
         <MDBTable class="align-middle mb-3 bg-white">
-             <div class="items-container">
+           
           <thead class="thead-dark">
             <tr>
               <th>Rank</th>
@@ -107,8 +108,9 @@
               </td>
             </tr>
           </tbody>
-           </div>
+          
         </MDBTable>
+         </div>
         </MDBTabPane>
        <MDBTabPane tabId="ex1-3">
        <div class="container">
