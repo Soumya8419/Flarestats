@@ -20,10 +20,10 @@
               <MDBTable class="align-left mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
-              <th style="width: 16.66%">Rank</th>
+              <th style="width: 25%">Rank</th>
               <th style="width: 25%">Name</th>
-              <th style="width: 50%">Reward Rate</th>
-              <th style="width: 8.33%">Fee(%)</th>
+              <th style="width: 25%">Reward Rate</th>
+              <th style="width: 25%">Fee(%)</th>
             </tr>
           </thead>
           <tbody>
@@ -276,6 +276,9 @@ export default defineComponent({
       .then((data) => (this.details = data))
       .catch((err) => console.log(err.message));
       console.log(this.persons)    
+    document.addEventListener('touchmove', function(e) {
+       e.preventDefault();
+       }, { passive: false });
   },  
 });
 </script>
