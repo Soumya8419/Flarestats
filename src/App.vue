@@ -37,7 +37,7 @@
                 }}</MDBBadge>
               </td>
               <td>
-                <div class="d-flex align-items-left">
+                <div class="align-items-left">
                   <img
                     :src="person.logoURI"
                     alt=""
