@@ -65,7 +65,6 @@
             </div>
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
-        Sorted hourly by highest Reward Rate.
           <div class="items-container">
         <MDBTable class="align-middle mb-3 bg-white">
            
