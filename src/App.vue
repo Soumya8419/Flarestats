@@ -440,8 +440,6 @@ fieldset {
   border-color: rgba(255, 255, 255, 0);
   border-image: none;
 }
-.items-container {
-  display: flex;
-}
+
 </style>
 
