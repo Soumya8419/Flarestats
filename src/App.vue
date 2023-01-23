@@ -1,5 +1,5 @@
 <template>
-<div style="max-width:768px;">
+<div style="max-width:1284px;">
   <MDBTabs v-model="activeTabId1" >
     <!-- Tabs navs -->
     <MDBTabNav tabsClasses="mb-3">
