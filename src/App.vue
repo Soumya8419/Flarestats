@@ -12,11 +12,12 @@
     <MDBTabContent>
       <MDBTabPane tabId="ex1-1">
       Sorted hourly by highest Reward Rate. 
- <div class="items-container">
+
             <span v-for="(item, index) in details" :key="index">Epoch :{{ item.epoch }},last refresh : {{ item.time }} .   
           </span>
 
-    </div>
+
+     <div class="items-container">
               <MDBTable class="align-left mb-3 bg-white">
           <thead class="thead-dark">
             <tr>
@@ -61,10 +62,12 @@
             </tr>
           </tbody>
         </MDBTable>
+            </div>
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">
         Sorted hourly by highest Reward Rate.
         <MDBTable class="align-middle mb-3 bg-white">
+             <div class="items-container">
           <thead class="thead-dark">
             <tr>
               <th>Rank</th>
@@ -104,6 +107,7 @@
               </td>
             </tr>
           </tbody>
+           </div>
         </MDBTable>
         </MDBTabPane>
        <MDBTabPane tabId="ex1-3">
@@ -276,9 +280,6 @@ export default defineComponent({
       .then((data) => (this.details = data))
       .catch((err) => console.log(err.message));
       console.log(this.persons)    
-    document.addEventListener('touchmove', function(e) {
-       e.preventDefault();
-       }, { passive: false });
   },  
 });
 </script>
