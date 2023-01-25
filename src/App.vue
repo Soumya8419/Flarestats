@@ -348,7 +348,7 @@ body {
 #view {
   height: 100vh;
   padding: 0 1rem;
-  overflow: hidden;
+ overflow: scroll;
   display: flex;
   flex-direction: column;
   touch-action: none;
