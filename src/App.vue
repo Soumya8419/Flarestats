@@ -287,63 +287,44 @@ export default defineComponent({
 </script>
 
 
-
 <style>
 @import url('https://use.typekit.net/iqo4nny.css');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
-.number {
-  font-family: 'Ubuntu Mono' !important;
-}
-/* :root {
-    --var-bg-color: #030B36;
-    --var-txt-color: #ffffff;
-} */
-#failed-start {
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+/* GLOBAL STYLES */
+.failed-start {
   align-items: center;
-  margin: auto;
 }
 .btn {
-  padding: 0.75rem 1rem;
-  border-radius: 0.75rem;
-  /* margin: 0 10px; */
-  cursor: pointer;
-  font-weight: 700;
-  text-align: center;
-  color: var(--var-white);
-  outline: none;
-  border-color: transparent;
-}
-.btn.btn-sm {
-  /* padding: 3px 8px; */
-  padding: 0.3rem 0.75rem;
   font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  font-family: proxima-nova, sans-serif;
+  font-weight: 800;
+  border-radius: 5rem;
 }
-.btn.btn-rounded {
-  border-radius: 20rem;
-}
-.btn.btn-block {
-  display: block;
-  width: auto;
-}
-.btn.btn-secondary {
-  background-color: var(--var-secondary);
+.btn svg {
+  margin-right: 0.2rem;
 }
 .btn.btn-primary {
-  background-color: var(--var-primary);
+  background: var(--var-blue);
+  border-color: var(--var-blue);
+  color: var(--var-white);
 }
-.btn.btn-success {
-  background-color: var(--var-green);
+.btn.btn-secondary {
+  background: var(--var-grey);
+  border-color: var(--var-grey);
+  color: var(--var-white);
 }
-.btn.disabled {
-  opacity: 0.5;
+.btn.btn-light {
+  background: var(--var-light);
+  border-color: var(--var-light);
+  color: var(--var-black);
 }
-.text-center {
-  text-align: center;
+.mono {
+  font-family: 'Ubuntu Mono' !important;
 }
-/*
-.btn-0-margin {
-  width: calc(100% - 10px);
-  margin: 0 !important;
+.push {
+  margin-left: auto !important;
 }
 .h-100 {
   height: 100%;
@@ -351,80 +332,46 @@ export default defineComponent({
 .margin-0 {
   margin: 0 !important;
 }
-*/
 #app {
   font-family: proxima-nova, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
-  overflow-y: auto;
+  height: 100vh;
 }
 html,
 body {
   height: 100%;
   width: 100%;
   margin: 0;
-  overscroll-behavior-y: none;
-  position: fixed;
-  overflow: hidden;
-}
-.LIGHT {
-  background-color: rgb(255, 255, 255);
-  color: white;
-}
-.DARK {
-  background-color: rgb(0, 0, 0);
-  color: white;
-}
-.MOONLIGHT {
-  background-color: #181a21;
-  color: white;
-}
-.ROYAL {
-  background-color: #030b36;
-  color: white;
 }
 #view {
-  height: 100%;
-  padding: 0;
-  /* padding: 0 15px; */
+  height: 100vh;
+  padding: 0 1rem;
   overflow: hidden;
-  background-color: var(--var-bg-color);
-  color: var(--var-txt-color);
+  display: flex;
+  flex-direction: column;
+  touch-action: none;
+  /* border: 1px solid blue; */
 }
-/* .swal2-container.swal2-backdrop-show,
+.swal2-container.swal2-backdrop-show,
 .swal2-container.swal2-noanimation {
   background: rgba(255, 255, 255, 0.4) !important;
 }
 .swal2-popup {
   box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.3) !important;
   border-radius: 10px !important;
-} */
+}
 .row {
-  /* padding: 0 1rem; */
-  /* display: flex; */
-  /* flex-direction: row; */
-  width: 95%;
-  margin: 0 10rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 5px 0;
   align-items: center;
 }
 .column {
   display: flex;
   flex-direction: column;
   width: 100%;
-}
-.alert {
-  position: relative;
-  padding: 0.75rem 1.25rem;
-  margin-bottom: 1rem;
-  border: 1px solid transparent;
-  border-radius: 0.5rem;
-  text-align: center;
-}
-.alert-primary {
-  color: #004085;
-  background-color: #cce5ff;
-  border-color: #b8daff;
 }
 fieldset {
   display: flex;
@@ -441,6 +388,4 @@ fieldset {
   border-color: rgba(255, 255, 255, 0);
   border-image: none;
 }
-
 </style>
-
