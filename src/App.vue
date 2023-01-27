@@ -337,7 +337,7 @@ export default defineComponent({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-   overflow-y: auto;
+ 
 }
 html,
 body {
