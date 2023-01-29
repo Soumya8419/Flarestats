@@ -3,7 +3,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
   />
-  <div id = "view">
+  <div id=view>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
       <MDBTabNav tabsClasses="mb-3">
@@ -17,15 +17,15 @@
         <MDBTabPane tabId="ex1-1">
           <div class="container">
             Sorted hourly by highest Reward Rate.
-            <div class="items-container">
+            <div class="items-container"> -->
               <span v-for="(item, index) in details" :key="index"
                 >Epoch :{{ item.sgbepoch }}, last refresh :
                 {{ timeSince(item.sgbtime) }} .
               </span>
-            </div>
+            </div> 
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="align-left mb-3 bg-white">
+            <MDBTable class="align-left mb-0 bg-white">
               <thead class="thead-dark">
                 <tr>
                   <th style="width: 25%">Rank</th>
@@ -43,7 +43,7 @@
                     }}</MDBBadge>
                   </td>
                   <td>
-                    <div class="align-items-center">
+                    <div class="align-items-left">
                       <img
                         :src="person.logoURI"
                         alt=""
@@ -80,7 +80,7 @@
               </span>
             </div>
             <div class="items-container">
-              <MDBTable class="align-middle mb-3 bg-white">
+              <MDBTable class="align-left">
                 <thead class="thead-dark">
                   <tr>
                     <th>Rank</th>
@@ -97,7 +97,7 @@
                       }}</MDBBadge>
                     </td>
                     <td>
-                      <div class="align-items-center">
+                      <div class="align-items-left">
                         <img
                           :src="person.logoURI"
                           alt=""
@@ -113,7 +113,7 @@
                       }}</MDBBadge>
                     </td>
                     <td>
-                      <div class="ms-3">
+                      <div class="ms-0">
                         <p class="text-muted mb-0">{{ person.fee }}</p>
                       </div>
                     </td>
