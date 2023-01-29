@@ -557,13 +557,13 @@ export default defineComponent({
 
       return (
         days +
-        " days " +
+        "D" +
         (hours % 24) +
-        " hours " +
+        "H" +
         (minutes % 60) +
-        " minutes " +
+        "M" +
         (seconds % 60) +
-        " seconds ago"
+        "S ago"
       );
     },
   },
