@@ -3,7 +3,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
   />
-  <div id >
+  <div id>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
       <MDBTabNav tabsClasses="mb-3">
@@ -24,50 +24,50 @@
               </span>
             </div>
 
-            <div class="items-container">
-              <MDBTable class="align-left mb-3 bg-white">
-                <thead class="thead-dark">
-                  <tr>
-                    <th style="width: 25%">Rank</th>
-                    <th style="width: 25%">Name</th>
-                    <th style="width: 25%">Reward Rate</th>
-                    <th style="width: 25%">Fee(%)</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="(person, index) in personssb" :key="index">
-                    <!-- <tr v-for="person in persons" :key="person.chainId"> -->
-                    <td>
-                      <MDBBadge badge="success" pill class="d-inline">{{
-                        index + 1
-                      }}</MDBBadge>
-                    </td>
-                    <td>
-                      <div class="align-items-center">
-                        <img
-                          :src="person.logoURI"
-                          alt=""
-                          style="width: 20px; height: 20px"
-                          class="rounded-circle"
-                        />
+            <!-- <div class="items-container"> -->
+            <MDBTable class="align-left mb-3 bg-white">
+              <thead class="thead-dark">
+                <tr>
+                  <th style="width: 25%">Rank</th>
+                  <th style="width: 25%">Name</th>
+                  <th style="width: 25%">Reward Rate</th>
+                  <th style="width: 25%">Fee(%)</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr v-for="(person, index) in personssb" :key="index">
+                  <!-- <tr v-for="person in persons" :key="person.chainId"> -->
+                  <td>
+                    <MDBBadge badge="success" pill class="d-inline">{{
+                      index + 1
+                    }}</MDBBadge>
+                  </td>
+                  <td>
+                    <div class="align-items-center">
+                      <img
+                        :src="person.logoURI"
+                        alt=""
+                        style="width: 20px; height: 20px"
+                        class="rounded-circle"
+                      />
 
-                        <p class="fw-bold mb-3">{{ person.name }}</p>
-                      </div>
-                    </td>
-                    <td>
-                      <MDBBadge badge="primary" pill class="d-inline">{{
-                        person.rewardRate
-                      }}</MDBBadge>
-                    </td>
-                    <td>
-                      <div class="ms-3">
-                        <p class="text-muted mb-0">{{ person.fee }}</p>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </MDBTable>
-            </div>
+                      <p class="fw-bold mb-3">{{ person.name }}</p>
+                    </div>
+                  </td>
+                  <td>
+                    <MDBBadge badge="primary" pill class="d-inline">{{
+                      person.rewardRate
+                    }}</MDBBadge>
+                  </td>
+                  <td>
+                    <div class="ms-3">
+                      <p class="text-muted mb-0">{{ person.fee }}</p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </MDBTable>
+            <!-- </div> -->
           </div>
         </MDBTabPane>
         <MDBTabPane tabId="ex1-2">
