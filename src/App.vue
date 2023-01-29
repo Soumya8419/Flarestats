@@ -557,9 +557,9 @@ export default defineComponent({
 
       return (
         days +
-        "D" +
+        "D " +
         (hours % 24) +
-        "H" +
+        "H " +
         (minutes % 60) +
         "M" +
         (seconds % 60) +
