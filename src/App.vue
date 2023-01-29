@@ -632,6 +632,7 @@ body {
   height: 100vh;
   padding: 0 1rem;
   overflow-y:auto;
+  overflow-x:hidden;
   display: flex;
   flex-direction: column;
   touch-action: none;
