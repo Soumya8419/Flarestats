@@ -3,7 +3,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
   />
-  <div id>
+  <div id = "view">
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
       <MDBTabNav tabsClasses="mb-3">
@@ -631,7 +631,7 @@ body {
 #view {
   height: 100vh;
   padding: 0 1rem;
-  overflow: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   touch-action: none;
