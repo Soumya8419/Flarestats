@@ -6,31 +6,58 @@
   <div>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
-      <MDBTabNav tabsClasses="mb-3">
-        <MDBTabItem tabId="ex1-1" href="ex1-1">Songbird</MDBTabItem>
-        <MDBTabItem tabId="ex1-2" href="ex1-2">Flare</MDBTabItem>
-        <MDBTabItem tabId="ex1-3" href="ex1-2">About Us</MDBTabItem>
+      <MDBTabNav justify tabsClasses="mb-0">
+        <MDBTabItem tabId="ex1-1" class="bg-primary text-white" href="ex1-1">
+          <img
+            src="https://songbird-ftso-monitor.flare.network/assets/songbird.svg"
+            class="img-fluid rounded"
+            style="width: 20px; height: 20px"
+            alt="Songbird"
+          />
+          Songbird</MDBTabItem
+        >
+        <MDBTabItem tabId="ex1-2" class="bg-danger text-white" href="ex1-2">
+          <img
+            src="https://songbird-ftso-monitor.flare.network/assets/flare.svg"
+            class="img-fluid rounded"
+            style="width: 20px; height: 20px"
+            alt="Flare"
+          />
+          Flare</MDBTabItem
+        >
+        <MDBTabItem tabId="ex1-3" class="bg-success text-white" href="ex1-3">
+          <img
+            src="https://flareportal.com/wp-content/uploads/2022/01/FlarePortal_PNG_300DPI_150px_150px.png.webp"
+            class="img-fluid rounded"
+            style="width: 20px; height: 20px"
+            alt="Flareportal"
+          />
+          About Us</MDBTabItem
+        >
       </MDBTabNav>
       <!-- Tabs navs -->
       <!-- Tabs content -->
       <MDBTabContent>
         <MDBTabPane tabId="ex1-1">
           <div class="container">
-            Sorted hourly by highest Reward Rate.
-            <div class="items-container"> 
-              <span v-for="(item, index) in details" :key="index"
-                >Epoch :{{ item.sgbepoch }}, last refresh :
-                {{ timeSince(item.sgbtime) }} .
+            <div class="items-container">
+              <span v-for="(item, index) in detailssb" :key="index">
+                <MDBBadge badge="dark" pill
+                  >Epoch :{{ item.sgbepoch }}</MDBBadge
+                >
+                <MDBBadge badge="info" pill>
+                  last refresh : {{ timeSince(item.sgbtime) }} </MDBBadge
+                ><MDBBadge></MDBBadge>
               </span>
-            </div> 
+            </div>
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="align-left mb-0 bg-white">
-              <thead class="thead-dark">
+            <MDBTable class="align-left mb-5 bg-white">
+              <thead class="table-light mb-6">
                 <tr>
                   <th style="width: 25%">Rank</th>
                   <th style="width: 25%">Name</th>
-                  <th style="width: 25%">Reward Rate</th>
+                  <th style="width: 25%">R.Rate</th>
                   <th style="width: 25%">Fee(%)</th>
                 </tr>
               </thead>
@@ -72,11 +99,14 @@
         </MDBTabPane>
         <MDBTabPane tabId="ex1-2">
           <div class="container">
-            Sorted hourly by highest Reward Rate.
             <div class="items-container">
-              <span v-for="(item, index) in details" :key="index"
-                >Epoch :{{ item.sgbepoch }}, last refresh :
-                {{ timeSince(item.sgbtime) }} .
+              <span v-for="(item, index) in detailsfl" :key="index">
+                <MDBBadge badge="dark" pill
+                  >Epoch :{{ item.flrepoch }}</MDBBadge
+                >
+                <MDBBadge badge="info" pill>
+                  last refresh : {{ timeSince(item.flrtime) }} </MDBBadge
+                ><MDBBadge></MDBBadge>
               </span>
             </div>
             <div class="items-container">
@@ -126,64 +156,54 @@
         <MDBTabPane tabId="ex1-3">
           <div class="container">
             <p class="text-sm-start">
-              This app provides FTSO's listed based on their ‘Reward Rate’.
+              This app provides <b>FTSO'</b>s listed based on their <b></b>‘Reward Rate’.
             </p>
-             
             <p>
               <span data-contrast="auto"
-                >SGB / FLR holders can delegate their tokens to their own choice
+                >
+                <div class="note note-success mb-3">
+                SGB / FLR holders can delegate their tokens to their own choice
                 of Data Providers (TSO&rsquo;s also named FTSO&rsquo;s). By
                 delegating your vote, your assets will stay in your
-                possession</span
+                possession</div></span
               >
               <span
                 >The Flare Portal xApp provides key information to select on
-                this delegation process</span
-              >.
-              <span
-                >Data is updated as per (in the xApp) indicated interval / last
+                this delegation process.Data is updated as per (in the xApp) indicated interval / last
                 updated information.</span
-              >
+              >.
             </p>
             <p>
               <span data-contrast="auto">Reward Rate</span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
-            <p>
+            <p class="fs-6">
               <span data-contrast="auto"
-                >Ratio used to calculate how many tokens you will receive per
-                100 delegated </span
-              ><span data-contrast="auto"
-                ><span
-                  data-ccp-charstyle="hgkelc"
-                  data-ccp-charstyle-defn='{"ObjectId":"c68bee1c-d300-49ba-bd20-00e1ba2b6f0f|9","ClassId":1073872969,"Properties":[469775450,"hgkelc",201340122,"1",134233614,"true",469778129,"hgkelc",335572020,"1",469778324,"Default Paragraph Font"]}'
-                  >$WSGB / $WFLR</span
-                ></span
-              ><span data-contrast="auto">.</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+                >
+                <div class="note note-success mb-3">
+                Ratio used to calculate how many tokens you will receive per
+                100 delegated $WSGB / $WFLR</div> </span
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
+  
             <p>
-              <span data-contrast="auto">When do I start earning rewards?</span
+              <span data-contrast="auto"><b>When do I start earning rewards?</b></span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p>
               <span data-contrast="auto"
-                >A vote power block (snapshot) is created each week
+                ><div class="note note-warning mb-3">A vote power block (snapshot) is created each week
                 (automatically and random time/date - around the beginning of
                 the new epoch). Your vote power should be delegated to a FTSO
                 for the upcoming epoch before the above-mentioned snapshot and
-                accruing rewards starts after 08:41 UTC on Saturday.</span
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p>
-              <span data-contrast="auto">Support us</span
+                accruing rewards starts after 08:41 UTC on Saturday.</div></span
+              >
+              <span data-contrast="auto"><b>Support us</b></span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p>
               <span data-contrast="auto"
-                >Support us by Delegating your wrapped (WSGB / WFLR) to </span
+                >Support us by delegating your wrapped (WSGB / WFLR) to </span
               ><a href="https://flareportal.com/"
                 ><span data-contrast="none"
                   ><span data-ccp-charstyle="Hyperlink"
@@ -226,12 +246,11 @@
                   you wish to delegate to that specific provider. Click Continue
                   then click Confirm and finally click Close</span
                 ><span data-ccp-charstyle="hgkelc"
-                  >. You are only delegating your Vote; the assets stay in your </span
+                  >. You are only delegating your Vote; the assets stays in your </span
                 ><span data-ccp-charstyle="hrcahc">possession</span
                 ><span data-ccp-charstyle="hgkelc"> / wallet.</span></span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
               <strong
                 ><span data-contrast="auto"
@@ -262,16 +281,15 @@
                   ><span data-ccp-charstyle="Hyperlink">t Wallet</span></span
                 ></a
               ><span data-contrast="auto">.</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
               <span data-contrast="auto">Flare Portal SGB / FLR address:</span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p>
               <span data-contrast="auto"
-                >0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</span
+                ><b>0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</b></span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p><span data-ccp-props="{}">&nbsp;</span></p>
@@ -355,20 +373,17 @@
             </p>
             <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
-              <span data-contrast="auto">DISCLAIMER</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              <span data-contrast="auto"><b>DISCLAIMER</b></span
+              > 
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
-              <span data-contrast="auto">Last updated December 29, 2022</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              <span data-contrast="auto">Last updated January 29, 2023</span
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
-              <span data-contrast="auto">xAPP and WEBSITE DISCLAIMER</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              <span data-contrast="auto"><b>xAPP and WEBSITE DISCLAIMER</b></span
+              > 
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
               <span data-contrast="auto"
                 >The information provided by Flare Portal (FTSO) based in The
@@ -386,14 +401,12 @@
                 THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE.
                 YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE
                 SITE IS SOLELY AT YOUR OWN RISK.</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
               <span data-contrast="auto">EXTERNAL LINKS DISCLAIMER</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
               <span data-contrast="auto"
                 >The xApp or Site may contain (or you may be sent through the
@@ -409,13 +422,8 @@
                 BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY
                 TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR
                 SERVICES.</span
-              ><span data-ccp-props="{}">&nbsp;</span>
+              >
             </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
           </div>
         </MDBTabPane>
       </MDBTabContent>
@@ -500,7 +508,8 @@ export default defineComponent({
       //   //persons: dp ,
       personssb: [],
       personsfl: [],
-      details: [],
+      detailssb: [],
+      detailsfl: [],
     };
   },
   // created: function () {
@@ -536,12 +545,21 @@ export default defineComponent({
       .catch((err) => console.log(err.message));
     console.log(this.persons);
     fetch(
-      "https://flareportal.com/data/details.json",
+      "https://flareportal.com/data/detailssb.json",
       { cache: "no-store" },
       { credentials: "same-origin" }
     )
       .then((res) => res.json())
-      .then((data) => (this.details = data))
+      .then((data) => (this.detailssb = data))
+      .catch((err) => console.log(err.message));
+    console.log(this.persons);
+    fetch(
+      "https://flareportal.com/data/detailsfl.json",
+      { cache: "no-store" },
+      { credentials: "same-origin" }
+    )
+      .then((res) => res.json())
+      .then((data) => (this.detailsfl = data))
       .catch((err) => console.log(err.message));
     console.log(this.persons);
   },
@@ -621,8 +639,8 @@ export default defineComponent({
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-    overflow-y:auto;
-  overflow-x:hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 html,
 body {
@@ -633,8 +651,8 @@ body {
 #view {
   height: 100vh;
   padding: 0 1rem;
-  overflow-y:hidden;
-  overflow-x:hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   touch-action: none;
