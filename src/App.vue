@@ -17,7 +17,7 @@
         <MDBTabPane tabId="ex1-1">
           <div class="container">
             Sorted hourly by highest Reward Rate.
-            <div class="items-container"> -->
+            <div class="items-container"> 
               <span v-for="(item, index) in details" :key="index"
                 >Epoch :{{ item.sgbepoch }}, last refresh :
                 {{ timeSince(item.sgbtime) }} .
@@ -561,7 +561,7 @@ export default defineComponent({
         (hours % 24) +
         "H " +
         (minutes % 60) +
-        "M" +
+        "M " +
         (seconds % 60) +
         "S ago"
       );
