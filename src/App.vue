@@ -631,7 +631,7 @@ body {
 #view {
   height: 100vh;
   padding: 0 1rem;
-  overflow-y:auto;
+  overflow-y:hidden;
   overflow-x:hidden;
   display: flex;
   flex-direction: column;
