@@ -11,7 +11,7 @@
           <img
             src="https://songbird-ftso-monitor.flare.network/assets/songbird.svg"
             class="img-fluid rounded"
-            style="width: 15px; height: 15px"
+            style="width: 5px; height: 5px"
             alt="Songbird"
           />
           Songbird</MDBTabItem
@@ -20,7 +20,7 @@
           <img
             src="https://songbird-ftso-monitor.flare.network/assets/flare.svg"
             class="img-fluid rounded"
-            style="width: 15px; height: 15px"
+            style="width: 5px; height: 5px"
             alt="Flare"
           />
           Flare</MDBTabItem
@@ -29,7 +29,7 @@
           <img
             src="https://flareportal.com/wp-content/uploads/2022/01/FlarePortal_PNG_300DPI_150px_150px.png.webp"
             class="img-fluid rounded"
-            style="width: 15px; height: 15px"
+            style="width: 5px; height: 5px"
             alt="Flareportal"
           />
           About</MDBTabItem
