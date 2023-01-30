@@ -11,7 +11,7 @@
           <img
             src="https://songbird-ftso-monitor.flare.network/assets/songbird.svg"
             class="img-fluid rounded"
-            style="width: 20px; height: 20px"
+            style="width: 15px; height: 15px"
             alt="Songbird"
           />
           Songbird</MDBTabItem
@@ -20,7 +20,7 @@
           <img
             src="https://songbird-ftso-monitor.flare.network/assets/flare.svg"
             class="img-fluid rounded"
-            style="width: 20px; height: 20px"
+            style="width: 15px; height: 15px"
             alt="Flare"
           />
           Flare</MDBTabItem
@@ -29,10 +29,10 @@
           <img
             src="https://flareportal.com/wp-content/uploads/2022/01/FlarePortal_PNG_300DPI_150px_150px.png.webp"
             class="img-fluid rounded"
-            style="width: 20px; height: 20px"
+            style="width: 15px; height: 15px"
             alt="Flareportal"
           />
-          About Us</MDBTabItem
+          About</MDBTabItem
         >
       </MDBTabNav>
       <!-- Tabs navs -->
@@ -41,12 +41,12 @@
         <MDBTabPane tabId="ex1-1">
           <div class="container">
             <div class="items-container">
-              <span v-for="(item, index) in detailssb" :key="index">
+              <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
                   >Epoch :{{ item.sgbepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
-                  last refresh : {{ timeSince(item.sgbtime) }} </MDBBadge
+                  last refresh : {{ timeSince(item.time) }} </MDBBadge
                 ><MDBBadge></MDBBadge>
               </span>
             </div>
@@ -100,12 +100,12 @@
         <MDBTabPane tabId="ex1-2">
           <div class="container">
             <div class="items-container">
-              <span v-for="(item, index) in detailsfl" :key="index">
+              <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
                   >Epoch :{{ item.flrepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
-                  last refresh : {{ timeSince(item.flrtime) }} </MDBBadge
+                  last refresh : {{ timeSince(item.time) }} </MDBBadge
                 ><MDBBadge></MDBBadge>
               </span>
             </div>
@@ -508,8 +508,7 @@ export default defineComponent({
       //   //persons: dp ,
       personssb: [],
       personsfl: [],
-      detailssb: [],
-      detailsfl: [],
+      details: []
     };
   },
   // created: function () {
@@ -545,21 +544,12 @@ export default defineComponent({
       .catch((err) => console.log(err.message));
     console.log(this.persons);
     fetch(
-      "https://flareportal.com/data/detailssb.json",
+      "https://flareportal.com/data/details.json",
       { cache: "no-store" },
       { credentials: "same-origin" }
     )
       .then((res) => res.json())
       .then((data) => (this.detailssb = data))
-      .catch((err) => console.log(err.message));
-    console.log(this.persons);
-    fetch(
-      "https://flareportal.com/data/detailsfl.json",
-      { cache: "no-store" },
-      { credentials: "same-origin" }
-    )
-      .then((res) => res.json())
-      .then((data) => (this.detailsfl = data))
       .catch((err) => console.log(err.message));
     console.log(this.persons);
   },
