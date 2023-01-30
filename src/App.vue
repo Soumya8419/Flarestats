@@ -102,7 +102,7 @@
             <div class="items-container">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
-                  >Epoch :{{ item.flrepoch }}</MDBBadge
+                  >Reward Epoch :{{ item.flrepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
                   last refresh : {{ timeSince(item.time) }} </MDBBadge
