@@ -549,7 +549,7 @@ export default defineComponent({
       { credentials: "same-origin" }
     )
       .then((res) => res.json())
-      .then((data) => (this.detailssb = data))
+      .then((data) => (this.details = data))
       .catch((err) => console.log(err.message));
     console.log(this.persons);
   },
