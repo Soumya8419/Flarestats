@@ -6,8 +6,8 @@
   <div>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
-      <MDBTabNav pills justify tabsClasses="mb-0">
-        <MDBTabItem tabId="ex1-1" class="bg-primary text-white" href="ex1-1">
+      <MDBTabNav pills   tabsClasses=" nav justify-content-center mb-5">
+        <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
             class="img-fluid rounded"
@@ -16,7 +16,7 @@
           />
           Songbird</MDBTabItem
         >
-        <MDBTabItem tabId="ex1-2" class="bg-danger text-white" href="ex1-2">
+        <MDBTabItem tabId="ex1-2" class="bg-danger text-white align-items-stretch" href="ex1-2">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/1flare.svg"
             class="img-fluid rounded"
@@ -25,7 +25,7 @@
           />
           Flare</MDBTabItem
         >
-        <MDBTabItem tabId="ex1-3" class="bg-success text-white" href="ex1-3">
+        <MDBTabItem tabId="ex1-3" class="bg-success text-white align-items-stretch" href="ex1-3">
           <img
             src="https://flareportal.com/wp-content/uploads/2022/01/FlarePortal_PNG_300DPI_150px_150px.png.webp"
             class="img-fluid rounded"
@@ -38,7 +38,7 @@
       <!-- Tabs navs -->
       <!-- Tabs content -->
       <MDBTabContent>
-        <MDBTabPane tabId="ex1-1" class="bg-primary">
+        <MDBTabPane tabId="ex1-1"  >
           <div class="container">
             <div class="items-container">
               <span v-for="(item, index) in details" :key="index">
@@ -46,7 +46,7 @@
                   >Epoch :{{ item.sgbepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
-                  last refresh : {{ timeSince(item.time) }} </MDBBadge
+                  Last refresh : {{ timeSince(item.time) }} </MDBBadge
                 ><MDBBadge></MDBBadge>
               </span>
             </div>
@@ -97,7 +97,7 @@
             <!-- </div> -->
           </div>
         </MDBTabPane>
-        <MDBTabPane tabId="ex1-2" class="bg-danger">
+        <MDBTabPane tabId="ex1-2" >
           <div class="container">
             <div class="items-container">
               <span v-for="(item, index) in details" :key="index">
@@ -105,7 +105,7 @@
                   >Epoch :{{ item.flrepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
-                  last refresh : {{ timeSince(item.time) }} </MDBBadge
+                  Last refresh : {{ timeSince(item.time) }} </MDBBadge
                 ><MDBBadge></MDBBadge>
               </span>
             </div>
@@ -153,7 +153,7 @@
             </div>
           </div>
         </MDBTabPane>
-        <MDBTabPane tabId="ex1-3" class="bg-success">
+        <MDBTabPane tabId="ex1-3"  >
           <div class="container align-left  mb-5 bg-white" >
             <p class="text-sm-start">
               This app provides <b>FTSO'</b>s listed based on their <b></b>‘Reward Rate’.
