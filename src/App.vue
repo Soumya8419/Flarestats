@@ -6,7 +6,7 @@
   <div>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
-      <MDBTabNav pills   tabsClasses=" nav justify-content-center mb-5">
+      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill ms-2 me-2">
         <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
@@ -32,7 +32,7 @@
             style="width: 20px; height: 20px"
             alt="Flareportal"
           />
-          About Us</MDBTabItem
+          About</MDBTabItem
         >
       </MDBTabNav>
       <!-- Tabs navs -->
@@ -40,13 +40,13 @@
       <MDBTabContent>
         <MDBTabPane tabId="ex1-1"  >
           <div class="container">
-            <div class="items-container">
+            <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
-                  >Epoch :{{ item.sgbepoch }}</MDBBadge
+                  >Price Epoch: {{ item.sgbepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
-                  Last refresh : {{ timeSince(item.time) }} </MDBBadge
+                  Last Refresh: {{ timeSince(item.time) }} </MDBBadge
                 ><MDBBadge></MDBBadge>
               </span>
             </div>
@@ -55,10 +55,10 @@
             <MDBTable class="align-left mb-5 bg-white">
               <thead class="table-light mb-6">
                 <tr>
-                  <th style="width: 25%">Rank</th>
-                  <th style="width: 25%">Name</th>
-                  <th style="width: 25%">R.Rate</th>
-                  <th style="width: 25%">Fee(%)</th>
+                  <th>Rank</th>
+                    <th>Name</th>
+                    <th>Reward Rate</th>
+                    <th>Fee(%)</th>
                 </tr>
               </thead>
               <tbody>
@@ -99,13 +99,13 @@
         </MDBTabPane>
         <MDBTabPane tabId="ex1-2" >
           <div class="container">
-            <div class="items-container">
+            <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
-                  >Epoch :{{ item.flrepoch }}</MDBBadge
+                  >Reward Epoch: {{ item.flrepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
-                  Last refresh : {{ timeSince(item.time) }} </MDBBadge
+                  Last Refresh: {{ timeSince(item.time) }} </MDBBadge
                 ><MDBBadge></MDBBadge>
               </span>
             </div>
@@ -165,13 +165,13 @@
                 SGB / FLR holders can delegate their tokens to their own choice
                 of Data Providers (TSO&rsquo;s also named FTSO&rsquo;s). By
                 delegating your vote, your assets will stay in your
-                possession</div></span
+                possession.</div></span
               >
               <span
                 >The Flare Portal xApp provides key information to select on
-                this delegation process.Data is updated as per (in the xApp) indicated interval / last
+                this delegation process. Data is updated as per (in the xApp) indicated interval / last
                 updated information.</span
-              >.
+              >
             </p>
             <p>
               <span data-contrast="auto">Reward Rate</span
@@ -182,7 +182,21 @@
                 >
                 <div class="note note-success mb-3">
                 Ratio used to calculate how many tokens you will receive per
-                100 delegated $WSGB / $WFLR</div> </span
+                100 delegated $WSGB / $WFLR. 
+                
+                The Vote Power of a FTSO / Data Provider is the sum of its balance 
+                Vote Power and all balance vote powers delegated to it by other accounts. 
+                The calculation is based on the Current Vote Power of the 
+                Data Provider (not the Active Vote Power). The Active Vote Power of an 
+                account is its Vote Power at a specific block, called the Vote Power Block,
+                whereas the Current Vote Power is the Vote Power is the sum of its balance 
+                Vote Power and all balance Vote Powers delegated to it by other accounts prior
+                to the Vote Power Block. The Current Vote Power is therefore a more
+                usefull indicator for the upcoming Reward Epoch, as if the Data
+                Provider exceeds the Vote Power Cap it impacts the reward ratio. The Vote
+                Power Cap lowers the maximum power a data provider can have in deciding 
+                the median price of a signal.
+                </div> </span
               >
             </p>
   
@@ -192,11 +206,14 @@
             </p>
             <p>
               <span data-contrast="auto"
-                ><div class="note note-warning mb-3">A vote power block (snapshot) is created each week
-                (automatically and random time/date - around the beginning of
-                the new epoch). Your vote power should be delegated to a FTSO
-                for the upcoming epoch before the above-mentioned snapshot and
-                accruing rewards starts after 08:41 UTC on Saturday.</div></span
+                ><div class="note note-warning mb-3">A vote power block (snapshot) 
+                is created (automatically and random time/date - around the beginning of
+                the new epoch). Example for Songbird: Your vote power should be delegated to 
+                a FTSO for the upcoming epoch before the above-mentioned snapshot and
+                accruing rewards starts in regrards to Songbird Network after 08:41 UTC 
+                on Saturday in regards to Songbird. The Reward Epoch cycle for Flare network
+                is 3.5 days (twice a week).
+                .</div></span
               >
               <span data-contrast="auto"><b>Support us</b></span
               ><span data-ccp-props="{}">&nbsp;</span>
@@ -247,7 +264,7 @@
                   then click Confirm and finally click Close</span
                 ><span data-ccp-charstyle="hgkelc"
                   >. You are only delegating your Vote; the assets stays in your </span
-                ><span data-ccp-charstyle="hrcahc">possession</span
+                ><span data-ccp-charstyle="hrcahc">possession.</span
                 ><span data-ccp-charstyle="hgkelc"> / wallet.</span></span
               >
             </p>
@@ -391,7 +408,9 @@
                 &ldquo;our&rdquo;) on https://flareporal.com (the
                 &ldquo;Site&rdquo;) is for general informational purposes only.
                 Use of the information is at your own risk as our technical
-                process could fail updating the information. All information on
+                process could fail updating the information. The information
+                provided does not contain financial advice. Don't rely on the 
+                information to make financial decisions. All information on
                 the Site is provided in good faith, however we make no
                 representation or warranty of any kind, express or implied,
                 regarding the accuracy, adequacy, validity, reliability,
@@ -467,7 +486,11 @@
       </tr>
     </tbody>
   </MDBTable> -->
-  </div>
+<!-- Footer -->
+
+
+</div>
+
 </template>
  <script>
 // import dp from '../dp.json'
