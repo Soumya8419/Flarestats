@@ -6,7 +6,7 @@
   <div>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
-      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill mb-5 ms-2 me-2">
+      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill mb-5 ms-2 me-4">
         <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
