@@ -6,7 +6,7 @@
   <div>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
-      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill ms-2 me-2">
+      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill mb-5">
         <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
@@ -39,7 +39,7 @@
       <!-- Tabs content -->
       <MDBTabContent>
         <MDBTabPane tabId="ex1-1"  >
-          <div class="container">
+          <div class="container bg-info">
             <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
@@ -98,7 +98,7 @@
           </div>
         </MDBTabPane>
         <MDBTabPane tabId="ex1-2" >
-          <div class="container">
+          <div class="container bg-danger">
             <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
@@ -153,7 +153,7 @@
             </div>
           </div>
         </MDBTabPane>
-        <MDBTabPane tabId="ex1-3"  >
+        <MDBTabPane tabId="ex1-3">
           <div class="container align-left  mb-5 bg-white" >
             <p class="text-sm-start">
               This app provides <b>FTSO'</b>s listed based on their <b></b>‘Reward Rate’.
@@ -221,35 +221,13 @@
             <p>
               <span data-contrast="auto"
                 >Support us by delegating your wrapped (WSGB / WFLR) to </span
-              ><a href="https://flareportal.com/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink"
-                    >Flare Portal</span
-                  ></span
-                ></a
               ><span data-contrast="auto"> via e.g., </span
-              ><a href="https://bifrostwallet.com/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">Bif</span
-                  ><span data-ccp-charstyle="Hyperlink">ros</span
-                  ><span data-ccp-charstyle="Hyperlink">t Wallet</span></span
-                ></a
-              ><span data-contrast="auto">&nbsp;</span
+              > <span data-contrast="auto">&nbsp;</span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p>
               <span data-contrast="auto">on your phone (</span
-              ><a
-                href="https://apps.apple.com/us/app/bifrost-wallet/id1577198351AOvVaw0vFVmXT5NE1txYW9tooYL0"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">Apple</span></span
-                ></a
               ><span data-contrast="auto"> / </span
-              ><a
-                href="https://play.google.com/store/apps/details?id=com.bifrostwallet.app"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">Google</span></span
-                ></a
               ><span data-contrast="auto">), in Bifrost Wallet: </span
               ><span data-contrast="auto"
                 ><span data-ccp-charstyle="hgkelc"
@@ -273,30 +251,10 @@
                 ><span data-contrast="auto"
                   >Support us via delegating to
                 </span></strong
-              ><a href="https://flareportal.com/"
-                ><strong
-                  ><span data-contrast="none"
-                    ><span data-ccp-charstyle="Hyperlink"
-                      >Flare Portal</span
-                    ></span
-                  ></strong
-                ></a
               >&nbsp;<br /><span data-contrast="auto"
                 >You can copy the below Flare Portal </span
-              ><a href="http://0x9225db8b30a59d8dd15448e2e5918bd160262b5d/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">SGB </span
-                  ><span data-ccp-charstyle="Hyperlink">/ FLR </span
-                  ><span data-ccp-charstyle="Hyperlink">address</span></span
-                ></a
               ><span data-contrast="auto">
                 or search for &lsquo;Flare Portal&rsquo; in e.g. </span
-              ><a href="https://bifrostwallet.com/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">Bif</span
-                  ><span data-ccp-charstyle="Hyperlink">ros</span
-                  ><span data-ccp-charstyle="Hyperlink">t Wallet</span></span
-                ></a
               ><span data-contrast="auto">.</span
               >
             </p>
@@ -316,77 +274,12 @@
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p>
-              <a href="https://flareportal.com/community/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">Forum</span></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <a href="https://flareportal.com/flarechat/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">FlareChat</span></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <a href="http://app.flareportal.com/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">xApp</span
-                  ><span data-ccp-charstyle="Hyperlink"> webpage</span></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <a
-                href="https://songbird-explorer.flare.network/address/0x9225db8B30A59D8Dd15448E2E5918BD160262b5D"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink"
-                    >Songbird network Explorer</span
-                  ></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <a
-                href="https://flare-explorer.flare.network/address/0x9225db8B30A59D8Dd15448E2E5918BD160262b5D"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink"
-                    >Flare network Explorer</span
-                  ></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p>
               <span data-contrast="auto"
                 >For support questions, improvements or feature request</span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p>
-              <a href="https://twitter.com/flareportal"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink">Twitter</span></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <a href="https://flareportal.com/"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink"
-                    >https://flareportal.com</span
-                  ></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <a href="mailto:info@flareportal.com"
-                ><span data-contrast="none"
-                  ><span data-ccp-charstyle="Hyperlink"
-                    >info@flareportal.com</span
-                  ></span
-                ></a
-              ><span data-ccp-props="{}">&nbsp;</span>
+             <span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p><span data-ccp-props="{}">&nbsp;</span></p>
             <p>
@@ -486,11 +379,7 @@
       </tr>
     </tbody>
   </MDBTable> -->
-<!-- Footer -->
-
-
-</div>
-
+  </div>
 </template>
  <script>
 // import dp from '../dp.json'
