@@ -3,10 +3,11 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
   />
+
   <div>
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
-      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill mb-5 ms-2 me-1">
+      <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill ms-2 me-1">
         <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
@@ -39,7 +40,7 @@
       <!-- Tabs content -->
       <MDBTabContent>
         <MDBTabPane tabId="ex1-1"  >
-          <div class="container bg-info">
+          <div class="container">
             <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
@@ -52,8 +53,8 @@
             </div>
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="align-left mb-5 bg-white">
-              <thead class="table-light mb-6">
+            <MDBTable class="align-center bg-info opacity-80  bg-white">
+              <thead class="table-light">
                 <tr>
                   <th>Rank</th>
                     <th>Name</th>
@@ -62,7 +63,7 @@
                 </tr>
               </thead>
               <tbody>
-                <tr v-for="(person, index) in personssb" :key="index">
+                <tr class="table-info" v-for="(person, index) in personssb" :key="index">
                   <!-- <tr v-for="person in persons" :key="person.chainId"> -->
                   <td>
                     <MDBBadge badge="success" pill class="d-inline">{{
@@ -98,7 +99,7 @@
           </div>
         </MDBTabPane>
         <MDBTabPane tabId="ex1-2" >
-          <div class="container bg-danger">
+          <div class="container">
             <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
@@ -120,7 +121,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="(person, index) in personsfl" :key="index">
+                  <tr class="table-danger" v-for="(person, index) in personsfl" :key="index">
                     <td>
                       <MDBBadge badge="success" pill class="d-inline">{{
                         index + 1
