@@ -8,7 +8,7 @@
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
       <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill ms-2 me-1">
-        <MDBTabItem tabId="ex1-1" class="bg-info text-white align-items-stretch" href="ex1-1">
+        <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
             class="img-fluid rounded"
@@ -53,8 +53,8 @@
             </div>
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="align-center bg-info opacity-80  bg-white">
-              <thead class="bg-info text-white">
+            <MDBTable class="align-center bg-white">
+              <thead class="bg-primary text-white">
                 <tr>
                   <th>Songbird Ranking</th>
                     <th>Name</th>
