@@ -26,7 +26,7 @@
         >
         <MDBTabItem
           tabId="ex1-2"
-          class="bg-warning text-white align-items-stretch"
+          class="bg-secondary text-white align-items-stretch"
           href="ex1-2"
         >
           <img
@@ -67,7 +67,7 @@
           </div>
           <div class="table-responsive">
             <MDBTable class="table">
-              <thead class="bg-primary text-white">
+              <thead class="bg-primary text-dark bg-opacity-25">
                 <tr>
                   <th scope="col">Rank</th>
                   <th scope="col">Name</th>
@@ -123,7 +123,7 @@
           </div>
           <div class="table-responsive">
             <MDBTable class="table">
-              <thead class="bg-warning text-white">
+              <thead class="bg-secondary text-dark bg-opacity-25">
                 <tr>
                   <th>Rank</th>
                   <th>Name</th>
