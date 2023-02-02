@@ -8,7 +8,7 @@
     <MDBTabs v-model="activeTabId1">
       <!-- Tabs navs -->
       <MDBTabNav pills   tabsClasses=" nav justify-content-center nav-fill ms-2 me-1">
-        <MDBTabItem tabId="ex1-1" class="bg-primary text-white align-items-stretch" href="ex1-1">
+        <MDBTabItem tabId="ex1-1" class="bg-info text-white align-items-stretch" href="ex1-1">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/songbird.svg"
             class="img-fluid rounded"
@@ -17,7 +17,7 @@
           />
           Songbird</MDBTabItem
         >
-        <MDBTabItem tabId="ex1-2" class="bg-danger text-white align-items-stretch" href="ex1-2">
+        <MDBTabItem tabId="ex1-2" class="bg-warning text-white align-items-stretch" href="ex1-2">
           <img
             src="https://app.flareportal.com/wp-includes/images/media/1flare.svg"
             class="img-fluid rounded"
@@ -44,7 +44,7 @@
             <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
-                  >Price Epoch: {{ item.sgbepoch }}</MDBBadge
+                  >Reward Epoch: {{ item.sgbepoch }}</MDBBadge
                 >
                 <MDBBadge badge="info" pill>
                   Last Refresh: {{ timeSince(item.time) }} </MDBBadge
@@ -54,16 +54,16 @@
 
             <!-- <div class="items-container"> -->
             <MDBTable class="align-center bg-info opacity-80  bg-white">
-              <thead class="table-light">
+              <thead class="bg-info text-white">
                 <tr>
-                  <th>Rank</th>
+                  <th>Songbird Ranking</th>
                     <th>Name</th>
                     <th>Reward Rate</th>
                     <th>Fee(%)</th>
                 </tr>
               </thead>
               <tbody>
-                <tr class="table-info" v-for="(person, index) in personssb" :key="index">
+                <tr  v-for="(person, index) in personssb" :key="index">
                   <!-- <tr v-for="person in persons" :key="person.chainId"> -->
                   <td>
                     <MDBBadge badge="success" pill class="d-inline">{{
@@ -112,16 +112,16 @@
             </div>
             <div class="items-container">
               <MDBTable class="align-left  mb-5 bg-white">
-                <thead class="table-light mb-6">
+                <thead class="bg-warning text-white">
                   <tr>
-                    <th>Rank</th>
+                    <th>Flare Ranking</th>
                     <th>Name</th>
                     <th>Reward Rate</th>
                     <th>Fee(%)</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr class="table-danger" v-for="(person, index) in personsfl" :key="index">
+                  <tr  v-for="(person, index) in personsfl" :key="index">
                     <td>
                       <MDBBadge badge="success" pill class="d-inline">{{
                         index + 1
@@ -155,27 +155,41 @@
           </div>
         </MDBTabPane>
         <MDBTabPane tabId="ex1-3">
-          <div class="container align-left  mb-5 bg-white" >
+          <div class="container align-left  mb-5 bg-white  fs-6" >
             <p class="text-sm-start">
-              This app provides <b>FTSO'</b>s listed based on their <b></b>‘Reward Rate’.
             </p>
+              <span data-contrast="auto"><b>Flareportal</b></span
+              ><span data-ccp-props="{}">&nbsp;</span>
+              <div class="note note-success mb-3">
+                <p> A lot of love and effort has gone in building this app.</p>
+                <p> As we strive to better at scoring to be Top-20 FTSO, we will continue building more apps  
+                    to bring our FTSO community together.</p> 
+                    <p>  You can reach us on Twitter @ Flareportal </p> 
+                      <p> We also have a Forum on our website at Flareportal where our community can post questions and answers.</p> 
+                        <p> Reach out to the community at https://flareportal.com/forum/</p> 
+              </div>
+            <p><span data-ccp-props="{}">&nbsp;</span></p>
+            <p>
+              <span data-contrast="auto"><b>Flare Portal xApp</b></span
+              ><span data-ccp-props="{}">&nbsp;</span>
+                                   </p>
             <p>
               <span data-contrast="auto"
                 >
                 <div class="note note-success mb-3">
+                This app provides <b>FTSO'</b>s listed and sorted decending on their <b>‘Reward Rate’</b>.
+                <p></p>
                 SGB / FLR holders can delegate their tokens to their own choice
                 of Data Providers (TSO&rsquo;s also named FTSO&rsquo;s). By
                 delegating your vote, your assets will stay in your
-                possession.</div></span
-              >
-              <span
-                >The Flare Portal xApp provides key information to select on
+                possession.
+                <p></p>
+                The Flare Portal xApp provides key information to select on
                 this delegation process. Data is updated as per (in the xApp) indicated interval / last
-                updated information.</span
-              >
+                updated information.</div></span>
             </p>
             <p>
-              <span data-contrast="auto">Reward Rate</span
+              <span data-contrast="auto"><b>Reward Rate</b></span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
             <p class="fs-6">
@@ -184,16 +198,17 @@
                 <div class="note note-success mb-3">
                 Ratio used to calculate how many tokens you will receive per
                 100 delegated $WSGB / $WFLR. 
-                
+                <p></p>
                 The Vote Power of a FTSO / Data Provider is the sum of its balance 
                 Vote Power and all balance vote powers delegated to it by other accounts. 
                 The calculation is based on the Current Vote Power of the 
-                Data Provider (not the Active Vote Power). The Active Vote Power of an 
-                account is its Vote Power at a specific block, called the Vote Power Block,
-                whereas the Current Vote Power is the Vote Power is the sum of its balance 
-                Vote Power and all balance Vote Powers delegated to it by other accounts prior
-                to the Vote Power Block. The Current Vote Power is therefore a more
-                usefull indicator for the upcoming Reward Epoch, as if the Data
+                Data Provider (not the Active Vote Power).
+                <p></p>
+                The Active Vote Power of an account is its Vote Power at a specific block, 
+                called the Vote Power Block, whereas the Current Vote Power is the Vote Power 
+                is the sum of its balance Vote Power and all balance Vote Powers delegated to 
+                it by other accounts prior to the Vote Power Block. The Current Vote Power is 
+                therefore a more usefull indicator for the upcoming Reward Epoch, as if the Data
                 Provider exceeds the Vote Power Cap it impacts the reward ratio. The Vote
                 Power Cap lowers the maximum power a data provider can have in deciding 
                 the median price of a signal.
@@ -216,79 +231,33 @@
                 is 3.5 days (twice a week).
                 .</div></span
               >
+            </p>
+            <p>
               <span data-contrast="auto"><b>Support us</b></span
               ><span data-ccp-props="{}">&nbsp;</span>
             </p>
-            <p>
+            <p class="fs-6">
               <span data-contrast="auto"
-                >Support us by delegating your wrapped (WSGB / WFLR) to </span
-              ><span data-contrast="auto"> via e.g., </span
-              > <span data-contrast="auto">&nbsp;</span
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <span data-contrast="auto">on your phone (</span
-              ><span data-contrast="auto"> / </span
-              ><span data-contrast="auto">), in Bifrost Wallet: </span
-              ><span data-contrast="auto"
-                ><span data-ccp-charstyle="hgkelc"
-                  >Click the Add Provider tab toward the bottom of the screen.
-                  Select which provider you want to delegate to (you can select
-                  up to 2 providers). Choose the percentage of your $WSGB </span
-                ><span data-ccp-charstyle="hgkelc">/ </span
-                ><span data-ccp-charstyle="hgkelc">$W</span
-                ><span data-ccp-charstyle="hgkelc">FLR</span
-                ><span data-ccp-charstyle="hgkelc">
-                  you wish to delegate to that specific provider. Click Continue
-                  then click Confirm and finally click Close</span
-                ><span data-ccp-charstyle="hgkelc"
-                  >. You are only delegating your Vote; the assets stays in your </span
-                ><span data-ccp-charstyle="hrcahc">possession.</span
-                ><span data-ccp-charstyle="hgkelc"> / wallet.</span></span
+                >
+                <div class="note note-primary mb-3">
+                Support us by delegating your wrapped SGB / FLR to Flare Portal.
+                <p></p>
+                Delegation can be done via e.g. Bifrost Wallet.
+                <p></p>
+                In Bifrost Wallet you can wrap your SGB / FLR and delegate to a 
+                Data Provider. You can search for Flare Portal.
+                <p></p>
+                Flare Portal SGB & FLR address:
+                <p class="fs-6"><b>0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</b></p>
+                <p></p>
+                </div> </span
               >
-            </p>
-            <p>
-              <strong
-                ><span data-contrast="auto"
-                  >Support us via delegating to
-                </span></strong
-              >&nbsp;<br /><span data-contrast="auto"
-                >You can copy the below Flare Portal </span
-              ><span data-contrast="auto">
-                or search for &lsquo;Flare Portal&rsquo; in e.g. </span
-              ><span data-contrast="auto">.</span
-              >
-            </p>
-            <p>
-              <span data-contrast="auto">Flare Portal SGB / FLR address:</span
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <span data-contrast="auto"
-                ><b>0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</b></span
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p>
-              <span data-contrast="auto"
-                >Additional information &ndash; Flare Portal</span
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-              <span data-contrast="auto"
-                >For support questions, improvements or feature request</span
-              ><span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p>
-             <span data-ccp-props="{}">&nbsp;</span>
-            </p>
-            <p><span data-ccp-props="{}">&nbsp;</span></p>
-            <p>
+          
               <span data-contrast="auto"><b>DISCLAIMER</b></span
               > 
             </p>
             <p>
-              <span data-contrast="auto">Last updated January 29, 2023</span
+              <span data-contrast="auto">Last updated February 2, 2023</span
               >
             </p>
             <p>
@@ -297,6 +266,7 @@
             </p>
             <p>
               <span data-contrast="auto"
+                ><div class="note note-warning mb-3">
                 >The information provided by Flare Portal (FTSO) based in The
                 Netherlands (&ldquo;we,&rdquo; &ldquo;us&rdquo;, or
                 &ldquo;our&rdquo;) on https://flareporal.com (the
@@ -313,16 +283,17 @@
                 LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF
                 THE SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE.
                 YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE
-                SITE IS SOLELY AT YOUR OWN RISK.</span
-              >
+                SITE IS SOLELY AT YOUR OWN RISK.
+              </div></span>
             </p>
             <p>
-              <span data-contrast="auto">EXTERNAL LINKS DISCLAIMER</span
+              <span data-contrast="auto"><b>EXTERNAL LINKS DISCLAIMER</b></span
               >
             </p>
             <p>
               <span data-contrast="auto"
-                >The xApp or Site may contain (or you may be sent through the
+                ><div class="note note-warning mb-3">
+                The xApp or Site may contain (or you may be sent through the
                 Site) links to other websites or content belonging to or
                 originating from third parties or links to websites and features
                 in banners or other advertising. Such external links are not
@@ -334,8 +305,8 @@
                 FEATURE LINKED IN ANY BANNER OR OTHER ADVERTISING. WE WILL NOT
                 BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY
                 TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR
-                SERVICES.</span
-              >
+                SERVICES.
+              </div></span>
             </p>
           </div>
         </MDBTabPane>
