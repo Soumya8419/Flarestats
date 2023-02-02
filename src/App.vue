@@ -271,8 +271,20 @@
                   a Data Provider. You can search for Flare Portal.
                   <p></p>
                   Flare Portal SGB & FLR address:
+                  <img
+            src="https://flareportal.com/wp-content/uploads/2022/01/FlarePortal_PNG_300DPI_150px_150px.png.webp"
+            class="img-fluid rounded"
+            style="width: 20px; height: 20px"
+            alt="Flareportal"
+          />
                   <p></p>
                   <footer class="blockquote-footer">0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</footer>
+                  <img
+            src="https://flareportal.com/wp-content/uploads/2022/01/flareportal_address.png.webp"
+            class="img-fluid rounded"
+            style="width: 100px; height: 100px"
+            alt="Flareportal"
+          />
                   <p></p>
                 </div>
               </span>
