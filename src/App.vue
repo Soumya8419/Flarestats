@@ -40,7 +40,7 @@
       <!-- Tabs content -->
       <MDBTabContent>
         <MDBTabPane tabId="ex1-1"  >
-          <div class="container">
+
             <div class="d-flex justify-content-center">
               <span v-for="(item, index) in details" :key="index">
                 <MDBBadge badge="dark" pill
@@ -96,7 +96,7 @@
               </tbody>
             </MDBTable>
             <!-- </div> -->
-          </div>
+
         </MDBTabPane>
         <MDBTabPane tabId="ex1-2" >
           <div class="container">
