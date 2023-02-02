@@ -128,7 +128,7 @@
                   <th>Rank</th>
                   <th>Name</th>
                   <th>Reward Rate</th>
-                  <th>Fee(%)</th>
+                  <th>Fee</th>
                 </tr>
               </thead>
               <tbody>
