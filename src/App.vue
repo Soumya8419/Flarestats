@@ -271,7 +271,7 @@
                   a Data Provider. You can search for Flare Portal.
                   <p></p>
                   Flare Portal SGB & FLR address:
-                  <p class="fs-6">0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</p>
+                  <p class="fs-7">0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</p>
                   <p></p>
                 </div>
               </span>
