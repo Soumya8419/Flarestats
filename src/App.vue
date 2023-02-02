@@ -167,7 +167,7 @@
         <MDBTabPane tabId="ex1-3">
           <div class="container align-left mb-5 bg-white fs-6">
             <p class="text-sm-start"></p>
-            <span data-contrast="auto"><b>Flareportal</b></span
+            <span data-contrast="auto"><b>Flare Portal</b></span
             ><span data-ccp-props="{}">&nbsp;</span>
             <div class="note note-success mb-3">
               <p>A lot of love and effort has gone in building this app.</p>
