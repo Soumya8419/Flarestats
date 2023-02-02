@@ -53,12 +53,12 @@
             </div>
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="align-center bg-white ms-2 me-1">
+            <MDBTable class="align-center bg-white ms-2 me-3">
               <thead class="bg-primary text-white">
                 <tr>
-                  <th>Songbird Ranking</th>
+                  <th>Ranking</th>
                     <th>Name</th>
-                    <th>Reward Rate</th>
+                    <th>Reward@</th>
                     <th>Fee(%)</th>
                 </tr>
               </thead>
@@ -114,9 +114,9 @@
               <MDBTable class="align-left  mb-5 bg-white ms-2 me-1">
                 <thead class="bg-warning text-white">
                   <tr>
-                    <th>Flare Ranking</th>
+                    <th>Rank</th>
                     <th>Name</th>
-                    <th>Reward Rate</th>
+                    <th>Reward@</th>
                     <th>Fee(%)</th>
                   </tr>
                 </thead>
