@@ -69,9 +69,9 @@
             <MDBTable class="table">
               <thead class="bg-primary text-white">
                 <tr>
-                  <th scope="col">Ranking</th>
+                  <th scope="col">Rank</th>
                   <th scope="col">Name</th>
-                  <th scope="col">Reward@</th>
+                  <th scope="col">Reward</th>
                   <th scope="col">Fee</th>
                 </tr>
               </thead>
@@ -101,7 +101,7 @@
                     }}</MDBBadge>
                   </td>
                   <td>
-                    <div class="ms-3">
+                    <div>
                       <p class="text-muted mb-0">{{ person.fee }}</p>
                     </div>
                   </td>
@@ -127,7 +127,7 @@
                 <tr>
                   <th>Rank</th>
                   <th>Name</th>
-                  <th>Reward@</th>
+                  <th>Reward</th>
                   <th>Fee(%)</th>
                 </tr>
               </thead>
@@ -155,7 +155,7 @@
                     }}</MDBBadge>
                   </td>
                   <td>
-                    <div class="ms-0">
+                    <div>
                       <p class="text-muted mb-0">{{ person.fee }}</p>
                     </div>
                   </td>
