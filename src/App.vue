@@ -53,8 +53,8 @@
             </div>
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="justify-content-center ms-2 me-1">
-              <thead class="bg-primary text-white">
+            <MDBTable class="justify-content-center ms-2 me-3">
+              <thead class="bg-primary text-white ms-2 me-3">
                 <tr>
                   <th>Ranking</th>
                     <th>Name</th>
