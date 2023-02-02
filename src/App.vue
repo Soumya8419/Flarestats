@@ -71,7 +71,7 @@
                 <tr>
                   <th scope="col">Rank</th>
                   <th scope="col">Name</th>
-                  <th scope="col">Reward</th>
+                  <th scope="col">Reward Rate</th>
                   <th scope="col">Fee</th>
                 </tr>
               </thead>
@@ -127,7 +127,7 @@
                 <tr>
                   <th>Rank</th>
                   <th>Name</th>
-                  <th>Reward</th>
+                  <th>Reward Rate</th>
                   <th>Fee(%)</th>
                 </tr>
               </thead>
