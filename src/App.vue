@@ -53,7 +53,7 @@
             </div>
 
             <!-- <div class="items-container"> -->
-            <MDBTable class="align-center bg-white">
+            <MDBTable class="align-center bg-white ms-2 me-1">
               <thead class="bg-primary text-white">
                 <tr>
                   <th>Songbird Ranking</th>
@@ -111,7 +111,7 @@
               </span>
             </div>
             <div class="items-container">
-              <MDBTable class="align-left  mb-5 bg-white">
+              <MDBTable class="align-left  mb-5 bg-white ms-2 me-1">
                 <thead class="bg-warning text-white">
                   <tr>
                     <th>Flare Ranking</th>
@@ -248,7 +248,7 @@
                 Data Provider. You can search for Flare Portal.
                 <p></p>
                 Flare Portal SGB & FLR address:
-                <p class="fs-6"><b>0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</b></p>
+                <p class="fs-6">0x9225db8B30A59D8Dd15448E2E5918BD160262b5D</p>
                 <p></p>
                 </div> </span
               >
